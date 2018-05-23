@@ -378,7 +378,11 @@ public:
         glClearBufferfv(GL_DEPTH, 0, &one);
 
         glm::mat4 mv_matrix = glm::lookAt(glm::vec3(sinf(t) * r, h, cosf(t) * r), glm::vec3(0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-        
+        float aspect = (float)mWidth / (float)mHeight;
+        mProjMatrix = glm::perspective(50.0f,
+            aspect,
+            1.0f,
+            1000.0f);
         glUseProgram(m_progObj);
 
         glUniformMatrix4fv(m_mvMatrixLocation, 1, GL_FALSE, glm::value_ptr(mv_matrix));

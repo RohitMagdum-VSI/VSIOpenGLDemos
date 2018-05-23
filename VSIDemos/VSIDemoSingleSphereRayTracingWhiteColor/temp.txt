@@ -1,0 +1,2 @@
+Width = 1024, Height = 780
+Width = 1024, Height = 780

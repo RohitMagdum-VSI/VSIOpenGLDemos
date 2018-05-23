@@ -30,7 +30,7 @@ namespace VSIUtil
             glBufferData(GL_ARRAY_BUFFER, tangents.size() * sizeof(glm::vec3), &(tangents[0].x), GL_STATIC_DRAW);
         }
         glEnableVertexAttribArray(attribLocation);
-        glBindBuffer(GL_ARRAY_BUFFER, buffer);
+       // glBindBuffer(GL_ARRAY_BUFFER, buffer);
         glVertexAttribPointer(attribLocation, (bufferType == 2) ? 2 : 3, GL_FLOAT, GL_FALSE, 0, NULL);
     }
 }

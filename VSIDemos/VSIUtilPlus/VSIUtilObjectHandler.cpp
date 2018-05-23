@@ -173,7 +173,7 @@ namespace VSIUtil
 
         if (textureIndices.size() != 0)
         {
-            VSIUtilCalculateTangents();
+//            VSIUtilCalculateTangents();
         }
     }
 

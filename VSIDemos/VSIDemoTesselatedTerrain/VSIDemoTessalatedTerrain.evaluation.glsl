@@ -28,7 +28,7 @@ void main(void)
     vec4 p1 = mix(gl_in[0].gl_Position, gl_in[1].gl_Position, gl_TessCoord.x);
     vec4 p2 = mix(gl_in[2].gl_Position, gl_in[3].gl_Position, gl_TessCoord.x);
     vec4 p = mix(p2, p1, gl_TessCoord.y);
-    p.y += texture(tex_displacement, tc).r * 6.0f;
+    p.y += texture(tex_displacement, tc).r * 0.0f;
 
     vec4 P_eye = mv_matrix * p;
 

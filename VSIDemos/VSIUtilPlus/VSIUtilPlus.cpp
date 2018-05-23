@@ -308,12 +308,15 @@ namespace VSIUtil
     {
         mWidth = width;
         mHeight = height;
-
+        FILE* fptr;
+        fopen_s(&fptr, "temp.txt", "a+");
+        fprintf(fptr, "Width = %d, Height = %d\n", width, height);
+        fclose(fptr);
         glViewport(0, 0, width, height);
         float aspect = (float)width / (float)height;
-        mProjMatrix = glm::perspective(50.0f,
+        mProjMatrix = glm::perspective(45.0f,
             aspect,
-            1.0f,
+            0.1f,
             1000.0f);
         
     }
