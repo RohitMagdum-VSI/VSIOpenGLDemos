@@ -1,0 +1,3 @@
+#include"3DNoiseExample.h"
+
+IDBITMAP_SMILEY BITMAP "../resources/textures/Smiley.bmp"

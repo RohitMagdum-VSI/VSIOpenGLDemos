@@ -1,0 +1,4 @@
+#include"10_3DTextureTwoShapes.h"
+
+IDBITMAP_KUNDALI BITMAP "Kundali.bmp"
+IDBITMAP_STONE BITMAP "Stone.bmp"

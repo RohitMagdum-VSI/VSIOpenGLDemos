@@ -1,0 +1,5 @@
+Log file created successfully
+x: 1, y: 255, z: 0, MouseX : 230.000000, MouseY : 100.000000
+x: 2, y: 255, z: 0, MouseX : 594.000000, MouseY : 140.000000
+x: 3, y: 255, z: 0, MouseX : 531.000000, MouseY : 431.000000
+Log file closed successfully

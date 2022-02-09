@@ -1,0 +1,4 @@
+#include "DOF.h"
+
+IDBITMAP_KUNDALI BITMAP "Kundali.bmp"
+IDBITMAP_STONE BITMAP "Stone.bmp"

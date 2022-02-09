@@ -1,0 +1,3 @@
+#include"09_Main.h"
+
+IDBITMAP_SMILEY BITMAP "Smiley.bmp"

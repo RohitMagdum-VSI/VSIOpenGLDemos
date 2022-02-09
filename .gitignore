@@ -1,0 +1,30 @@
+# User-specific files
+*.suo
+*.user
+
+.vs/
+*.exe
+*.obj
+*.bat
+*.pdf
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.pro.user*
+
+Uploads/Git/repos/*.git
+Uploads/Git/repos/*.gitignore
+
+# Files built by Visual Studio
+*.aps
+
+
+## -- Custom Ignore Section. ##
+
+Uploads/Git/repos/*.git
