@@ -1,0 +1,5 @@
+#pragma once
+
+#define IDBITMAP_DUDV_WATER 107
+
+#define IDBITMAP_NORMAL_WATER 108

@@ -1,0 +1,48 @@
+# Wavefront Object Material File
+# Generated using SpeedTree tools
+
+newmtl Bark_Mat
+map_Kd Bark.tga
+map_d 
+map_bump Bark_Normal.tga
+bump Bark_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Branch_1_Mat
+map_Kd Branch_1.tga
+map_d Branch_1_Opacity.tga
+map_bump Branch_1_Normal.tga
+bump Branch_1_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Branch_2_Mat
+map_Kd Branch_2.tga
+map_d Branch_2_Opacity.tga
+map_bump Branch_2_Normal.tga
+bump Branch_2_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Large_Cluster_spring_Mat
+map_Kd Large_Cluster_spring.tga
+map_d Large_Cluster_spring_Opacity.tga
+map_bump Large_Cluster_spring_Normal.tga
+bump Large_Cluster_spring_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Large_Cluster_summer_Mat
+map_Kd Large_Cluster_summer.tga
+map_d Large_Cluster_summer_Opacity.tga
+map_bump Large_Cluster_summer_Normal.tga
+bump Large_Cluster_summer_Normal.tga -bm 1
+Ns 128
+illum 2
+
+

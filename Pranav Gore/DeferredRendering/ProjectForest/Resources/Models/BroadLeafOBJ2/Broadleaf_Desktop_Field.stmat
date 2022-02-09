@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="4" Mesh="Broadleaf_Desktop_Field.obj" FlipOpacity="0">
+	<Material ID="17" Name="Knot_3_Mat" TwoSided="0" UserData="" VertexOpacity="0">
+		<Map Name="Color" File="Knot_3.tga" />
+		<Map Name="Normal" File="Knot_3_Normal.tga" />
+		<Map Name="Gloss" File="Knot_3_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Knot_3_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="4" Name="Main_Bark_Mat" TwoSided="0" UserData="" VertexOpacity="0">
+		<Map Name="Color" File="Main_Bark.tga" />
+		<Map Name="Normal" File="Main_Bark_Normal.tga" />
+		<Map Name="Gloss" File="Main_Bark_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Main_Bark_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="3" Name="Oak_Live_Cluster_Desktop_spring_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Oak_Live_Cluster_Desktop_spring Cutout" />
+		<Map Name="Color" File="Oak_Live_Cluster_Desktop_spring.tga" />
+		<Map Name="Opacity" File="Oak_Live_Cluster_Desktop_spring_Opacity.tga" />
+		<Map Name="Normal" File="Oak_Live_Cluster_Desktop_spring_Normal.tga" />
+		<Map Name="Gloss" File="Oak_Live_Cluster_Desktop_spring_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Oak_Live_Cluster_Desktop_spring_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Oak_Live_Cluster_Desktop_spring_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Oak_Live_Cluster_Desktop_spring_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="1" Name="Oak_Live_Desktop_Cluster_3_spring_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Oak_Live_Desktop_Cluster_3_spring Cutout" />
+		<Map Name="Color" File="Oak_Live_Desktop_Cluster_3_spring.tga" />
+		<Map Name="Opacity" File="Oak_Live_Desktop_Cluster_3_spring_Opacity.tga" />
+		<Map Name="Normal" File="Oak_Live_Desktop_Cluster_3_spring_Normal.tga" />
+		<Map Name="Gloss" File="Oak_Live_Desktop_Cluster_3_spring_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Oak_Live_Desktop_Cluster_3_spring_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Oak_Live_Desktop_Cluster_3_spring_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Oak_Live_Desktop_Cluster_3_spring_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+</Materials>

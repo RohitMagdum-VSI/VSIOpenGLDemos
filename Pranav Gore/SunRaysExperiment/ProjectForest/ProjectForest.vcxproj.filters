@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SOIL2">
+      <UniqueIdentifier>{0b430751-7bb5-4b92-a48e-02da6c70c120}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderLoad\LoadShaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\TGALoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skydome\Skydome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightsMaterial\LightsMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoad\SOIL2\etc1_utils.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoad\SOIL2\image_DXT.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoad\SOIL2\image_helper.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoad\SOIL2\SOIL2.c">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicShapes\BasicShapes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_SunRays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Tga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLoad\LoadShaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skydome\Skydome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightsMaterial\LightsMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\etc1_utils.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\image_DXT.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\image_helper.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\jo_jpeg.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\pkm_helper.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\pvr_helper.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\SOIL2.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stb_image.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stb_image_write.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_DDS.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_DDS_c.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_ext.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_ext_c.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_pkm.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_pkm_c.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_pvr.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoad\SOIL2\stbi_pvr_c.h">
+      <Filter>Source Files\SOIL2</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicShapes\BasicShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TerrainTexture.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shaders\AtmosphericScatterringGPUGems2.frag.glsl" />
+    <None Include="Resources\Shaders\AtmosphericScatterringGPUGems2.vert.glsl" />
+    <None Include="Resources\Shaders\AtmosphericScatterringPerFragment.frag.glsl" />
+    <None Include="Resources\Shaders\AtmosphericScatterringPerFragment.vert.glsl" />
+    <None Include="Resources\Shaders\AtmosphericScatterringPerFragment2.frag.glsl" />
+    <None Include="Resources\Shaders\BasicShader.frag.glsl" />
+    <None Include="Resources\Shaders\BasicShader.vert.glsl" />
+    <None Include="Resources\Shaders\BasicShaderTexture.frag.glsl" />
+    <None Include="Resources\Shaders\BasicShaderTexture.vert.glsl" />
+    <None Include="Resources\Shaders\BasicShapesIQFog1.frag.glsl" />
+    <None Include="Resources\Shaders\BasicShapesIQFog1.vert.glsl" />
+    <None Include="Resources\Shaders\BasicShapesIQFog1NM.frag.glsl" />
+    <None Include="Resources\Shaders\BasicShapesIQFog1NM.vert.glsl" />
+    <None Include="Resources\Shaders\Blur.vert.glsl" />
+    <None Include="Resources\Shaders\BlurHorizontal.frag.glsl" />
+    <None Include="Resources\Shaders\BlurVertical.frag.glsl" />
+    <None Include="Resources\Shaders\DeferredRendering.frag.glsl" />
+    <None Include="Resources\Shaders\DeferredRendering.vert.glsl" />
+    <None Include="Resources\Shaders\FontsfragmentShaderSugat.frag.glsl" />
+    <None Include="Resources\Shaders\FontsvertexShaderSugat.vert.glsl" />
+    <None Include="Resources\Shaders\GBuffer.frag.glsl" />
+    <None Include="Resources\Shaders\GBuffer.vert.glsl" />
+    <None Include="Resources\Shaders\GrassDayLight.frag.glsl" />
+    <None Include="Resources\Shaders\GrassDayLight.vert.glsl" />
+    <None Include="Resources\Shaders\GrassDayNight.frag.glsl" />
+    <None Include="Resources\Shaders\GrassDayNight.vert.glsl" />
+    <None Include="Resources\Shaders\HDR.frag.glsl" />
+    <None Include="Resources\Shaders\HDR.vert.glsl" />
+    <None Include="Resources\Shaders\HemisphereLight.frag.glsl" />
+    <None Include="Resources\Shaders\HemisphereLight.vert.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingLetters.frag" />
+    <None Include="Resources\Shaders\ModelLoadingLetters.vs" />
+    <None Include="Resources\Shaders\ModelLoadingWithAnimation.frag.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingWithAnimation.vert.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingWithoutAnimation.frag.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingWithoutAnimation.vert.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingWithoutAnimationNight.frag.glsl" />
+    <None Include="Resources\Shaders\ModelLoadingWithoutAnimationNight.vert.glsl" />
+    <None Include="Resources\Shaders\SampleTexture.frag.glsl" />
+    <None Include="Resources\Shaders\SampleTexture.vert.glsl" />
+    <None Include="Resources\Shaders\SunDepthTest.frag.glsl" />
+    <None Include="Resources\Shaders\SunDepthTest.vert.glsl" />
+    <None Include="Resources\Shaders\SunRays.frag.glsl" />
+    <None Include="Resources\Shaders\SunRays.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainDayTimeSugat.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainDayTimeSugat.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainIQFog1.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainIQFog1.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainIQFog2.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainIQFog2.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainNightMultilights.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainNightMultilights.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainNightSinglePointLightNormalMap.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainNightSinglePointLightNormalMap.vert.glsl" />
+    <None Include="Resources\Shaders\TerrainSuperBibleFog.frag.glsl" />
+    <None Include="Resources\Shaders\TerrainSuperBibleFog.vert.glsl" />
+    <None Include="Resources\Shaders\VolumeLight.frag.glsl" />
+    <None Include="Resources\Shaders\VolumeLight.vert.glsl" />
+    <None Include="Resources\Shaders\WaterFragmentShaderSugat.frag.glsl" />
+    <None Include="Resources\Shaders\WaterVertexShaderSugat.vert.glsl" />
+    <None Include="Resources\Shaders\AtmosphericScatterringPerFragment2.vert.glsl" />
+  </ItemGroup>
+</Project>

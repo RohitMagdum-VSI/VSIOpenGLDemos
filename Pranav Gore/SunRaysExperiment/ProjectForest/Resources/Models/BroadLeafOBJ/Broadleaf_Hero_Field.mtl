@@ -1,0 +1,66 @@
+# Wavefront Object Material File
+# Generated using SpeedTree tools
+
+newmtl Knot_3_Mat
+map_Kd Knot_3.tga
+map_d 
+map_bump Knot_3_Normal.tga
+bump Knot_3_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Lichen_front_1_Mat
+map_Kd Lichen_front_1.tga
+map_d Lichen_front_1_Opacity.tga
+map_bump Lichen_front_1_Normal.tga
+bump Lichen_front_1_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Main_Bark_Mat
+map_Kd Main_Bark.tga
+map_d 
+map_bump Main_Bark_Normal.tga
+bump Main_Bark_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Oak_Live_Cluster_Bare_Mat
+map_Kd Oak_Live_Cluster_Bare.tga
+map_d Oak_Live_Cluster_Bare_Opacity.tga
+map_bump Oak_Live_Cluster_Bare_Normal.tga
+bump Oak_Live_Cluster_Bare_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Oak_Live_Cluster_spring_Mat
+map_Kd Oak_Live_Cluster_spring.tga
+map_d Oak_Live_Cluster_spring_Opacity.tga
+map_bump Oak_Live_Cluster_spring_Normal.tga
+bump Oak_Live_Cluster_spring_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Oak_Live_Cluster_summer_Mat
+map_Kd Oak_Live_Cluster_summer.tga
+map_d Oak_Live_Cluster_summer_Opacity.tga
+map_bump Oak_Live_Cluster_summer_Normal.tga
+bump Oak_Live_Cluster_summer_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Shell_Bark_Mat
+map_Kd Shell_Bark.tga
+map_d 
+map_bump Shell_Bark_Normal.tga
+bump Shell_Bark_Normal.tga -bm 1
+Ns 128
+illum 2
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="4" Mesh="Conifer.obj" FlipOpacity="0">
+	<Material ID="1" Name="Bark_Mat" TwoSided="0" UserData="" VertexOpacity="0">
+		<Map Name="Color" File="Bark.tga" />
+		<Map Name="Normal" File="Bark_Normal.tga" />
+		<Map Name="Gloss" File="Bark_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Bark_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="3" Name="Cap_Mat" TwoSided="0" UserData="" VertexOpacity="0">
+		<Map Name="Color" File="Cap.tga" />
+		<Map Name="Opacity" File="Cap_Opacity.tga" />
+		<Map Name="Normal" File="Cap_Normal.tga" />
+		<Map Name="Gloss" File="Cap_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Cap_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="4" Name="Leaf_1_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Leaf_1 Cutout" />
+		<Map Name="Color" File="Leaf_1.tga" />
+		<Map Name="Opacity" File="Leaf_1_Opacity.tga" />
+		<Map Name="Normal" File="Leaf_1_Normal.tga" />
+		<Map Name="Gloss" File="Leaf_1_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Leaf_1_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Leaf_1_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Leaf_1_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="6" Name="Leaf_1a_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Leaf_1 Cutout" />
+		<Map Name="Color" File="Leaf_1a.tga" />
+		<Map Name="Opacity" File="Leaf_1a_Opacity.tga" />
+		<Map Name="Normal" File="Leaf_1a_Normal.tga" />
+		<Map Name="Gloss" File="Leaf_1a_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Leaf_1a_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Leaf_1a_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Leaf_1a_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+</Materials>

@@ -1,0 +1,1039 @@
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:11: 'uMVPMatrix' : undeclared identifier 
+ERROR: 0:11: 'vPosition' : undeclared identifier 
+ERROR: 0:11: 'assign' :  cannot convert from 'float' to 'Position 4-component vector of float'
+ERROR: 0:12: 'OutColor' : undeclared identifier 
+ERROR: 0:12: 'vColor' : undeclared identifier 
+ERROR: 0:12: 'constructor' : not enough data provided for construction 
+ERROR: 0:12: 'assign' :  cannot convert from '4-component vector of float' to 'float'
+
+ in file Resources/Shaders/BasicShader.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:12: 'OutTexCoord' : undeclared identifier 
+ERROR: 0:12: 'aTexCoord' : undeclared identifier 
+ERROR: 0:14: 'aPosition' : undeclared identifier 
+ERROR: 0:14: 'constructor' : not enough data provided for construction 
+
+ in file Resources/Shaders/BasicShaderTexture.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:22: 'vs_out' : undeclared identifier 
+ERROR: 0:22: 'FragPos' : illegal vector field selection 
+ERROR: 0:22: 'u_model_matrix' : undeclared identifier 
+ERROR: 0:22: 'vPosition' : undeclared identifier 
+ERROR: 0:22: 'constructor' : not enough data provided for construction 
+ERROR: 0:22: 'assign' :  cannot convert from '3-component vector of float' to 'float'
+ERROR: 0:23: 'FragPosWorldCoord' : illegal vector field selection 
+ERROR: 0:24: 'FragPosEyeCoord' : illegal vector field selection 
+ERROR: 0:24: 'u_view_matrix' : undeclared identifier 
+ERROR: 0:24: 'constructor' : not enough data provided for construction 
+ERROR: 0:24: 'assign' :  cannot convert from '3-component vector of float' to 'float'
+ERROR: 0:26: 'Normal' : illegal vector field selection 
+ERROR: 0:26: 'inverse' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:26: 'transpose' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:26: 'vNormal' : undeclared identifier 
+ERROR: 0:26: 'assign' :  cannot convert from '3X3 (default)row_major matrix of float' to 'float'
+ERROR: 0:27: 'TexCoords0' : illegal vector field selection 
+ERROR: 0:27: 'vTexCoord0' : undeclared identifier 
+ERROR: 0:29: 'u_projection_matrix' : undeclared identifier 
+ERROR: 0:29: 'FragPos' : illegal vector field selection 
+ERROR: 0:29: 'constructor' : not enough data provided for construction 
+
+ in file Resources/Shaders/BasicShapesIQFog1.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:5: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:6: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:6: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:6: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:26: 'vs_out' : undeclared identifier 
+ERROR: 0:26: 'FragPos' : illegal vector field selection 
+ERROR: 0:26: 'u_model_matrix' : undeclared identifier 
+ERROR: 0:26: 'vPosition' : undeclared identifier 
+ERROR: 0:26: 'constructor' : not enough data provided for construction 
+ERROR: 0:26: 'assign' :  cannot convert from '3-component vector of float' to 'float'
+ERROR: 0:27: 'TexCoords0' : illegal vector field selection 
+ERROR: 0:27: 'vTexCoord0' : undeclared identifier 
+WARNING: 0:29: 'inverse' : function is not available in current GLSL version 
+WARNING: 0:29: 'transpose' : function is not available in current GLSL version 
+ERROR: 0:31: 'vNormal' : undeclared identifier 
+ERROR: 0:31: 'normalize' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:31: '=' :  cannot convert from 'const float' to '3-component vector of float'
+ERROR: 0:32: 'vTangent' : undeclared identifier 
+ERROR: 0:32: 'normalize' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:32: '=' :  cannot convert from 'const float' to '3-component vector of float'
+WARNING: 0:36: 'transpose' : function is not available in current GLSL version 
+ERROR: 0:38: 'TangentLightDir' : illegal vector field selection 
+ERROR: 0:38: 'u_light_direction' : undeclared identifier 
+ERROR: 0:38: 'assign' :  cannot convert from '3X3 (default)row_major matrix of float' to 'float'
+ERROR: 0:39: 'TangentViewPos' : illegal vector field selection 
+ERROR: 0:39: 'u_view_position' : undeclared identifier 
+ERROR: 0:39: 'assign' :  cannot convert from '3X3 (default)row_major matrix of float' to 'float'
+ERROR: 0:40: 'TangentFragPos' : illegal vector field selection 
+ERROR: 0:40: 'FragPos' : illegal vector field selection 
+ERROR: 0:40: 'assign' :  cannot convert from '3X3 (default)row_major matrix of float' to 'float'
+ERROR: 0:42: 'u_projection_matrix' : undeclared identifier 
+ERROR: 0:42: 'u_view_matrix' : undeclared identifier 
+ERROR: 0:42: 'FragPos' : illegal vector field selection 
+ERROR: 0:42: 'constructor' : not enough data provided for construction 
+
+ in file Resources/Shaders/BasicShapesIQFog1NM.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:10: 'TexCoords' : undeclared identifier 
+ERROR: 0:10: 'aTexCoords' : undeclared identifier 
+ERROR: 0:11: 'aPosition' : undeclared identifier 
+ERROR: 0:11: 'assign' :  cannot convert from 'float' to 'Position 4-component vector of float'
+
+ in file Resources/Shaders/SunDepthTest.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:10: 'TexCoords' : undeclared identifier 
+ERROR: 0:10: 'aTexCoords' : undeclared identifier 
+ERROR: 0:11: 'aPosition' : undeclared identifier 
+ERROR: 0:11: 'assign' :  cannot convert from 'float' to 'Position 4-component vector of float'
+
+ in file Resources/Shaders/Blur.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:10: 'TexCoords' : undeclared identifier 
+ERROR: 0:10: 'aTexCoords' : undeclared identifier 
+ERROR: 0:11: 'aPosition' : undeclared identifier 
+ERROR: 0:11: 'assign' :  cannot convert from 'float' to 'Position 4-component vector of float'
+
+ in file Resources/Shaders/Blur.vert.glsl
+ShaderLog opened.
+Shader compilation failed:
+ ERROR: 0:1: '' :  Incorrect GLSL version: 450
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:3: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+WARNING: 0:4: 'GL_ARB_explicit_attrib_location' :  extension is not available in current GLSL version
+ERROR: 0:10: 'TexCoords' : undeclared identifier 
+ERROR: 0:10: 'aTexCoords' : undeclared identifier 
+ERROR: 0:11: 'aPosition' : undeclared identifier 
+ERROR: 0:11: 'assign' :  cannot convert from 'float' to 'Position 4-component vector of float'
+
+ in file Resources/Shaders/SunRays.vert.glsl
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.
+ShaderLog opened.
+ShaderLog closed.

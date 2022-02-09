@@ -1,0 +1,68 @@
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1561
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1563
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays.cpp Line:1560
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1596
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1596
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1598
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1598
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1599
+GL_INVALID_OPERATION File:d:\opengl\crepuscularrays\projectforest\main_sunrays2.cpp Line:1599
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays2.cpp Line:1599
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays2.cpp Line:1599
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays2.cpp Line:1599
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1560
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1560
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1560
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1560
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1560
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1561
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1566
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1566
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1566
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1566
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1569
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1570
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1571
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1573
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1573
+GL_INVALID_OPERATION File:E:\Asus Laptop Bakup\OpenGL\CrepuscularRays\ProjectForest\Main_SunRays.cpp Line:1573

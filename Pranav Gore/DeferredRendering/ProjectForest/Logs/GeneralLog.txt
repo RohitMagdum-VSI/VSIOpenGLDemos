@@ -1,0 +1,6 @@
+Log file created successfully.
+position file created successfully.
+normal file created successfully.
+texcoord file created successfully.
+indices file created successfully.
+tangents file created successfully.

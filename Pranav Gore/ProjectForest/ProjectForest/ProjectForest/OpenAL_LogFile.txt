@@ -1,0 +1,9 @@
+OpenAL Log file created successfully
+OpenAL device opened successfully
+returning for loadWAV
+returning for loadWAV
+returning for loadWAV
+returning for loadWAV
+returning for loadWAV
+returning for loadWAV
+returning for loadWAV

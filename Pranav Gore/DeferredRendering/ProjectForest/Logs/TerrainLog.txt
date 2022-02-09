@@ -1,0 +1,4 @@
+Log file created successfully.
+Terrian has been loaded successfully.
+IDBITMAP_BLENDMAP loaded successfully
+TerrainLogFile closing

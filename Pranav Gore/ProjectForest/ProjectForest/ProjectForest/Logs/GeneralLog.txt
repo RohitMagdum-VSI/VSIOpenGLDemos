@@ -1,0 +1,167 @@
+Log file created successfully.
+position file created successfully.
+normal file created successfully.
+texcoord file created successfully.
+indices file created successfully.
+tangents file created successfully.
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(-0.153311, 34.616360, 0.979736)
+CameraSide: vec3(-0.987977, 0.000000, -0.154600)
+CameraUp: vec3(-0.019926, 0.991659, 0.127340)
+CameraFront: vec3(-0.153311, -0.128890, 0.979736)
+PlayerFront: vec3(-0.154600, 0.000000, 0.987977)
+GetSunCDirY: -0.834528
+GetSunWPos: vec3(7.135265, -392.533051, 282.003815)
+GetSunCPos: vec3(5.005152, -427.299377, 282.017731)
+GetSunCDir: vec3(0.013936, -0.834528, 0.550789)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.725760, 34.596237, 0.671615)
+CameraSide: vec3(-0.679199, 0.000000, 0.733955)
+CameraUp: vec3(0.109370, 0.988835, 0.101211)
+CameraFront: vec3(0.725760, -0.149015, 0.671615)
+PlayerFront: vec3(0.676783, 0.000000, 0.736183)
+GetSunCDirY: -0.834512
+GetSunWPos: vec3(-7.802063, -392.525055, 281.998474)
+GetSunCPos: vec3(-10.362110, -427.232391, 281.973450)
+GetSunCDir: vec3(-0.015238, -0.834512, 0.550778)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.725760, 34.596237, 0.671615)
+CameraSide: vec3(-0.679199, 0.000000, 0.733955)
+CameraUp: vec3(0.109370, 0.988835, 0.101211)
+CameraFront: vec3(0.725760, -0.149015, 0.671615)
+PlayerFront: vec3(0.676783, 0.000000, 0.736183)
+GetSunCDirY: -0.834512
+GetSunWPos: vec3(-7.802063, -392.525055, 281.998474)
+GetSunCPos: vec3(-10.362110, -427.232391, 281.973450)
+GetSunCDir: vec3(-0.015238, -0.834512, 0.550778)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.783142, 34.596237, 0.603724)
+CameraSide: vec3(-0.610541, 0.000000, 0.791985)
+CameraUp: vec3(0.118017, 0.988835, 0.090980)
+CameraFront: vec3(0.783142, -0.149015, 0.603724)
+PlayerFront: vec3(0.733955, 0.000000, 0.679199)
+GetSunCDirY: -0.834438
+GetSunWPos: vec3(-10.362110, -392.487152, 281.973450)
+GetSunCPos: vec3(-12.808787, -427.186127, 281.942932)
+GetSunCDir: vec3(-0.020239, -0.834438, 0.550730)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.825131, 34.609539, 0.548399)
+CameraSide: vec3(-0.553520, 0.000000, 0.832836)
+CameraUp: vec3(0.113026, 0.990748, 0.075119)
+CameraFront: vec3(0.825131, -0.135712, 0.548399)
+PlayerFront: vec3(0.791985, 0.000000, 0.610541)
+GetSunCDirY: -0.834348
+GetSunWPos: vec3(-12.808787, -392.440887, 281.942932)
+GetSunCPos: vec3(-15.229398, -427.130768, 281.906403)
+GetSunCDir: vec3(-0.025017, -0.834348, 0.550670)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.832299, 34.622974, 0.540673)
+CameraSide: vec3(-0.544761, 0.000000, 0.838592)
+CameraUp: vec3(0.102541, 0.992496, 0.066612)
+CameraFront: vec3(0.832299, -0.122277, 0.540673)
+PlayerFront: vec3(0.832836, 0.000000, 0.553520)
+GetSunCDirY: -0.834240
+GetSunWPos: vec3(-15.229398, -392.385529, 281.906403)
+GetSunCPos: vec3(-17.368340, -427.073914, 281.868866)
+GetSunCDir: vec3(-0.029745, -0.834240, 0.550599)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.832299, 34.622974, 0.540673)
+CameraSide: vec3(-0.544761, 0.000000, 0.838592)
+CameraUp: vec3(0.102541, 0.992496, 0.066612)
+CameraFront: vec3(0.832299, -0.122277, 0.540673)
+PlayerFront: vec3(0.832836, 0.000000, 0.553520)
+GetSunCDirY: -0.834240
+GetSunWPos: vec3(-15.229398, -392.385529, 281.906403)
+GetSunCPos: vec3(-17.368340, -427.073914, 281.868866)
+GetSunCDir: vec3(-0.029745, -0.834240, 0.550599)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.816557, 34.629753, 0.565592)
+CameraSide: vec3(-0.569403, 0.000000, 0.822059)
+CameraUp: vec3(0.094946, 0.993308, 0.065765)
+CameraFront: vec3(0.816557, -0.115498, 0.565592)
+PlayerFront: vec3(0.838592, 0.000000, 0.544761)
+GetSunCDirY: -0.834129
+GetSunWPos: vec3(-17.368340, -392.328674, 281.868866)
+GetSunCPos: vec3(-19.670254, -427.004395, 281.822937)
+GetSunCDir: vec3(-0.033923, -0.834129, 0.550525)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.799232, 34.629807, 0.589832)
+CameraSide: vec3(-0.593802, 0.000000, 0.804611)
+CameraUp: vec3(0.092887, 0.993314, 0.068550)
+CameraFront: vec3(0.799232, -0.115443, 0.589832)
+PlayerFront: vec3(0.822059, 0.000000, 0.569403)
+GetSunCDirY: -0.833993
+GetSunWPos: vec3(-19.670254, -392.259155, 281.822937)
+GetSunCPos: vec3(-22.039623, -426.923767, 281.769745)
+GetSunCDir: vec3(-0.038418, -0.833993, 0.550436)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.799232, 34.629807, 0.589832)
+CameraSide: vec3(-0.593802, 0.000000, 0.804611)
+CameraUp: vec3(0.092887, 0.993314, 0.068550)
+CameraFront: vec3(0.799232, -0.115443, 0.589832)
+PlayerFront: vec3(0.822059, 0.000000, 0.569403)
+GetSunCDirY: -0.833993
+GetSunWPos: vec3(-19.670254, -392.259155, 281.822937)
+GetSunCPos: vec3(-22.039623, -426.923767, 281.769745)
+GetSunCDir: vec3(-0.038418, -0.833993, 0.550436)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.781180, 34.629807, 0.613540)
+CameraSide: vec3(-0.617669, 0.000000, 0.786438)
+CameraUp: vec3(0.090789, 0.993314, 0.071305)
+CameraFront: vec3(0.781180, -0.115443, 0.613540)
+PlayerFront: vec3(0.804611, 0.000000, 0.593802)
+GetSunCDirY: -0.833836
+GetSunWPos: vec3(-22.039623, -392.178528, 281.769745)
+GetSunCPos: vec3(-24.788004, -426.818756, 281.700470)
+GetSunCDir: vec3(-0.043046, -0.833836, 0.550332)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.781032, 34.629807, 0.613727)
+CameraSide: vec3(-0.617858, 0.000000, 0.786289)
+CameraUp: vec3(0.090771, 0.993314, 0.071327)
+CameraFront: vec3(0.781032, -0.115443, 0.613727)
+PlayerFront: vec3(0.786438, 0.000000, 0.617669)
+GetSunCDirY: -0.833631
+GetSunWPos: vec3(-24.788004, -392.073517, 281.700470)
+GetSunCPos: vec3(-27.198763, -426.716492, 281.632965)
+GetSunCDir: vec3(-0.048414, -0.833631, 0.550196)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.781031, 34.629807, 0.613729)
+CameraSide: vec3(-0.617860, 0.000000, 0.786288)
+CameraUp: vec3(0.090771, 0.993314, 0.071327)
+CameraFront: vec3(0.781031, -0.115443, 0.613729)
+PlayerFront: vec3(0.786289, 0.000000, 0.617858)
+GetSunCDirY: -0.833431
+GetSunWPos: vec3(-27.198763, -391.971252, 281.632965)
+GetSunCPos: vec3(-29.322313, -426.618500, 281.568298)
+GetSunCDir: vec3(-0.053123, -0.833431, 0.550065)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.781031, 34.629807, 0.613729)
+CameraSide: vec3(-0.617860, 0.000000, 0.786288)
+CameraUp: vec3(0.090771, 0.993314, 0.071327)
+CameraFront: vec3(0.781031, -0.115443, 0.613729)
+PlayerFront: vec3(0.786289, 0.000000, 0.617858)
+GetSunCDirY: -0.833431
+GetSunWPos: vec3(-27.198763, -391.971252, 281.632965)
+GetSunCPos: vec3(-29.322313, -426.618500, 281.568298)
+GetSunCDir: vec3(-0.053123, -0.833431, 0.550065)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.781031, 34.629807, 0.613729)
+CameraSide: vec3(-0.617860, 0.000000, 0.786288)
+CameraUp: vec3(0.090771, 0.993314, 0.071327)
+CameraFront: vec3(0.781031, -0.115443, 0.613729)
+PlayerFront: vec3(0.786288, 0.000000, 0.617860)
+GetSunCDirY: -0.833240
+GetSunWPos: vec3(-29.322313, -391.873260, 281.568298)
+GetSunCPos: vec3(-31.592358, -426.505585, 281.493805)
+GetSunCDir: vec3(-0.057270, -0.833240, 0.549938)
+cameraPos.x: 0.000000 cameraPos.y: 34.745251 cameraPos.z: 0.000000
+CameraLook: vec3(0.774905, 34.629807, 0.621446)
+CameraSide: vec3(-0.625629, 0.000000, 0.780120)
+CameraUp: vec3(0.090059, 0.993314, 0.072224)
+CameraFront: vec3(0.774905, -0.115443, 0.621446)
+PlayerFront: vec3(0.786288, 0.000000, 0.617860)
+GetSunCDirY: -0.833019
+GetSunWPos: vec3(-31.592358, -391.760345, 281.493805)
+GetSunCPos: vec3(-33.998863, -426.376678, 281.408722)
+GetSunCDir: vec3(-0.061704, -0.833019, 0.549793)
+Log File Is Successfully Closed.

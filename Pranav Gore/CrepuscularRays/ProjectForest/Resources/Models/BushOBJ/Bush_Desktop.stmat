@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!-- Generated using SpeedTree tools -->
+<Materials Count="5" Mesh="Bush_Desktop.obj" FlipOpacity="0">
+	<Material ID="1" Name="Bark_Mat" TwoSided="0" UserData="" VertexOpacity="0">
+		<Map Name="Color" File="Bark.tga" />
+		<Map Name="Normal" File="Bark_Normal.tga" />
+		<Map Name="Gloss" File="Bark_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Bark_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="2" Name="Branch_1_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Branch_1 Cutout" />
+		<Map Name="Color" File="Branch_1.tga" />
+		<Map Name="Opacity" File="Branch_1_Opacity.tga" />
+		<Map Name="Normal" File="Branch_1_Normal.tga" />
+		<Map Name="Gloss" File="Branch_1_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Branch_1_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="4" Name="Branch_2_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Branch_2 Cutout" />
+		<Map Name="Color" File="Branch_2.tga" />
+		<Map Name="Opacity" File="Branch_2_Opacity.tga" />
+		<Map Name="Normal" File="Branch_2_Normal.tga" />
+		<Map Name="Gloss" File="Branch_2_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="AO" File="Branch_2_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="3" Name="Large_Cluster_spring_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Leaf_1 Cutout" />
+		<Map Name="Color" File="Large_Cluster_spring.tga" />
+		<Map Name="Opacity" File="Large_Cluster_spring_Opacity.tga" />
+		<Map Name="Normal" File="Large_Cluster_spring_Normal.tga" />
+		<Map Name="Gloss" File="Large_Cluster_spring_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Large_Cluster_spring_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Large_Cluster_spring_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Large_Cluster_spring_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+	<Material ID="10" Name="Large_Cluster_summer_Mat" TwoSided="1" UserData="" VertexOpacity="0">
+		<Mesh Name="Leaf_1 Cutout" />
+		<Map Name="Color" File="Large_Cluster_summer.tga" />
+		<Map Name="Opacity" File="Large_Cluster_summer_Opacity.tga" />
+		<Map Name="Normal" File="Large_Cluster_summer_Normal.tga" />
+		<Map Name="Gloss" File="Large_Cluster_summer_Gloss.tga" />
+		<Map Name="Specular" ColorR="0.75" ColorG="0.75" ColorB="0.75" />
+		<Map Name="SubsurfaceColor" File="Large_Cluster_summer_SubsurfaceColor.tga" />
+		<Map Name="SubsurfaceAmount" File="Large_Cluster_summer_SubsurfaceAmount.tga" />
+		<Map Name="AO" File="Large_Cluster_summer_AO.tga" />
+		<Map Name="Custom" ColorR="0" ColorG="0" ColorB="0" />
+	</Material>
+</Materials>

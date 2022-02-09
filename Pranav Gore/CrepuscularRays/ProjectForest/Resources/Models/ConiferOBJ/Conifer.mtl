@@ -1,0 +1,39 @@
+# Wavefront Object Material File
+# Generated using SpeedTree tools
+
+newmtl Bark_Mat
+map_Kd Bark.tga
+map_d 
+map_bump Bark_Normal.tga
+bump Bark_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Cap_Mat
+map_Kd Cap.tga
+map_d Cap_Opacity.tga
+map_bump Cap_Normal.tga
+bump Cap_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Leaf_1_Mat
+map_Kd Leaf_1.tga
+map_d Leaf_1_Opacity.tga
+map_bump Leaf_1_Normal.tga
+bump Leaf_1_Normal.tga -bm 1
+Ns 128
+illum 2
+
+
+newmtl Leaf_1a_Mat
+map_Kd Leaf_1a.tga
+map_d Leaf_1a_Opacity.tga
+map_bump Leaf_1a_Normal.tga
+bump Leaf_1a_Normal.tga -bm 1
+Ns 128
+illum 2
+
+

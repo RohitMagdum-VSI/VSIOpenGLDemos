@@ -1,0 +1,2 @@
+skyfile.txt created successfully.
+SunCPos: vec3(-473.026306, -163.528290, 107.928680)	SunWPos: vec3(0.000000, 0.000000, 0.000000)

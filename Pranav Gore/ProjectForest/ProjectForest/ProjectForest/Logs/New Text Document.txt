@@ -1,0 +1,10 @@
+cameraPos.x: -198.260040 cameraPos.y: 27.100000 cameraPos.z: 144.541687
+CameraLook: vec3(-197.311157, 27.085913, 144.226395)
+CameraSide: vec3(0.315325, 0.000000, 0.948984)
+CameraUp: vec3(0.013369, 0.999901, -0.004442)
+CameraFront: vec3(0.948890, -0.014088, -0.315294)
+PlayerFront: vec3(0.948984, 0.000000, -0.315325)
+GetSunCDirY: 0.027667
+GetSunWPos: vec3(298.667419, 41.265259, 125.923248)
+GetSunCPos: vec3(511.762482, 12.961061, -8.551699)
+GetSunCDir: vec3(0.999451, 0.027667, -0.018255)
