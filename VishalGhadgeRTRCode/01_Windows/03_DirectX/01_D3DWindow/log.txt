@@ -1,0 +1,12 @@
+Log file is succesfuly opened 
+D3D11CreateDeviceAndSwapChain() Succeded 
+The choosen driver is of D3D_DRIVER_TYPE_HARDWARE Type 
+Supported highest feature is D3D_FEATURE_LEVEL_11_0 
+resize() succeded.
+resize() succeded.
+resize() succeded.
+resize() succeded.
+resize() succeded.
+resize() succeded.
+uninitialize() succeded 
+Log file is succesfuly closed 

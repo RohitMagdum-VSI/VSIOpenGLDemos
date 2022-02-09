@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ortho_MulticolorTriangle", "Ortho_MulticolorTriangle\Ortho_MulticolorTriangle.vcxproj", "{0C6BE1B3-0330-49A8-9E07-8589CD2A91A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ortho_MulticolorTriangle_glu", "Ortho_MulticolorTriangle_glu\Ortho_MulticolorTriangle_glu.vcxproj", "{863D9AA3-4CF7-4F03-ADD8-ED8C417352F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Perspective_MulticolorTriangle", "Perspective_MulticolorTriangle\Perspective_MulticolorTriangle.vcxproj", "{33C6818E-78D2-4022-801A-7AF8ACD21307}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Perspective_MulticolorTriangle_glu", "Perspective_MulticolorTriangle_glu\Perspective_MulticolorTriangle_glu.vcxproj", "{46B6CDF8-9851-48D3-B548-00ECC2F8192A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6BE1B3-0330-49A8-9E07-8589CD2A91A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C6BE1B3-0330-49A8-9E07-8589CD2A91A3}.Debug|Win32.Build.0 = Debug|Win32
+		{0C6BE1B3-0330-49A8-9E07-8589CD2A91A3}.Release|Win32.ActiveCfg = Release|Win32
+		{0C6BE1B3-0330-49A8-9E07-8589CD2A91A3}.Release|Win32.Build.0 = Release|Win32
+		{863D9AA3-4CF7-4F03-ADD8-ED8C417352F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{863D9AA3-4CF7-4F03-ADD8-ED8C417352F5}.Debug|Win32.Build.0 = Debug|Win32
+		{863D9AA3-4CF7-4F03-ADD8-ED8C417352F5}.Release|Win32.ActiveCfg = Release|Win32
+		{863D9AA3-4CF7-4F03-ADD8-ED8C417352F5}.Release|Win32.Build.0 = Release|Win32
+		{33C6818E-78D2-4022-801A-7AF8ACD21307}.Debug|Win32.ActiveCfg = Debug|Win32
+		{33C6818E-78D2-4022-801A-7AF8ACD21307}.Debug|Win32.Build.0 = Debug|Win32
+		{33C6818E-78D2-4022-801A-7AF8ACD21307}.Release|Win32.ActiveCfg = Release|Win32
+		{33C6818E-78D2-4022-801A-7AF8ACD21307}.Release|Win32.Build.0 = Release|Win32
+		{46B6CDF8-9851-48D3-B548-00ECC2F8192A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46B6CDF8-9851-48D3-B548-00ECC2F8192A}.Debug|Win32.Build.0 = Debug|Win32
+		{46B6CDF8-9851-48D3-B548-00ECC2F8192A}.Release|Win32.ActiveCfg = Release|Win32
+		{46B6CDF8-9851-48D3-B548-00ECC2F8192A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

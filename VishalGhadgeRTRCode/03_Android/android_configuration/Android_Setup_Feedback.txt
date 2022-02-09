@@ -1,0 +1,7 @@
+GROUP: (MATRIX)
+-Name: (Vishal Ghadge)
+-Roll No: (017)
+-Phone Name+Serial: (Motorola Moto G(3rd gen))
+-OS Name and Full Version : (Marshmallow 6.0.1)
+-Application: (Did Run)
+-Any special changes required to be done apart from 6 Files: (NO)

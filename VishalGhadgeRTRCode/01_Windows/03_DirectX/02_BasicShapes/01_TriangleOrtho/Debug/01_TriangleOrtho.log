@@ -1,0 +1,41 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  01_TriangleOrtho.cpp
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2908): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2909): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2910): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2911): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2912): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2913): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2914): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2935): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2936): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2937): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2940): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2941): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2944): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2948): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2958): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2959): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2961): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2962): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2963): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2973): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2974): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2975): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2976): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2977): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2978): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2988): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(2989): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamath.h(3000): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(2522): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5120): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5174): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5236): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5304): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5367): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathconvert.inl(5429): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathvector.inl(1265): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathmisc.inl(514): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+d:\working_dir\vishalghadgertrassignements\01_windows\03_directx\include\xnamath\xnamathmisc.inl(515): warning C4838: conversion from 'unsigned int' to 'INT' requires a narrowing conversion
+LINK : fatal error LNK1104: cannot open file 'MSVCRTD.lib'

@@ -1,0 +1,4 @@
+
+ Version : 4.3.0 - Build 20.19.15.4531
+ Shader Version : 4.30 - Build 20.19.15.4531==>Vertex Shader: Per vertex.==>Vertex Shader: Per Fragment.==>Fragment Shader:Per Vertex.==>Fragment Shader: Per Fragment.
+ Log file succesfuly closed.

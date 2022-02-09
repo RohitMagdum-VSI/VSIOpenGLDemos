@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF8"/>
+		<title> VTG: 3D Texture </title>
+	</head>
+	
+	<!--Body-->
+	<body onload="main()">
+		<canvas id="AMC" width="800" height="600">
+			Your browser does not support HTML5 canvas element
+		</canvas>
+		<script src="gl-matrix-min.js"></script> 
+		<script src="3DTexture.js"></script>
+		<script type="x-shader/vertex-shader" id="vs">#version 300 es
+			in vec4 vPosition;
+			in vec2 vTexture0Coord;
+			out vec2 out_Texture0Coord;
+			uniform mat4 u_mvp_matrix;
+			void main(void)
+			{
+				gl_Position = u_mvp_matrix * vPosition;
+				out_Texture0Coord = vTexture0Coord;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fs">#version 300 es
+			precision highp float;
+			in vec2 out_Texture0Coord;
+			out vec4 FragColor;
+			uniform sampler2D u_texture0_sampler;
+			void main(void)
+			{
+				FragColor = texture(u_texture0_sampler, out_Texture0Coord);
+			}
+		</script>
+	</body>
+</html> 

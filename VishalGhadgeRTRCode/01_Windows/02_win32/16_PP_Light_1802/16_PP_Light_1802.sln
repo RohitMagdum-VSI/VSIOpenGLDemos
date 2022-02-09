@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Sphere", "01_Sphere\01_Sphere.vcxproj", "{5B52F094-989B-4850-A450-C26FF975895A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_RotatingCubeDiffuseLight", "02_RotatingCubeDiffuseLight\02_RotatingCubeDiffuseLight.vcxproj", "{9E5EA041-4F9B-4CD0-A92A-B25BAF56FDE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_SingleLightOnSpherePerVertexPhong", "03_SingleLightOnSpherePerVertexPhong\03_SingleLightOnSpherePerVertexPhong.vcxproj", "{070EF620-7259-4D5F-8802-C4474B5015F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_SingleLightOnSpherePerFragmentPhong", "04_SingleLightOnSpherePerFragmentPhong\04_SingleLightOnSpherePerFragmentPhong.vcxproj", "{AF730489-A4C5-4D46-98BC-D3F84C167841}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_SingleLightOnSpherePerVertexAndFragment", "05_SingleLightOnSpherePerVertexAndFragment\05_SingleLightOnSpherePerVertexAndFragment.vcxproj", "{1007DED6-244F-4B53-9EF3-1D418BC39111}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_2LightsOnRotatingPyramid", "06_2LightsOnRotatingPyramid\06_2LightsOnRotatingPyramid.vcxproj", "{0574AE40-DAE6-434F-AF5B-35A3F910AA94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_3LightsOnSteadySphere", "07_3LightsOnSteadySphere\07_3LightsOnSteadySphere.vcxproj", "{E60F85D9-7630-449E-A0DD-73045C822E94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_24SphereWithMaterial", "08_24SphereWithMaterial\08_24SphereWithMaterial.vcxproj", "{84FB307D-E0B7-4AE4-B799-3372808B1D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B52F094-989B-4850-A450-C26FF975895A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5B52F094-989B-4850-A450-C26FF975895A}.Debug|Win32.Build.0 = Debug|Win32
+		{5B52F094-989B-4850-A450-C26FF975895A}.Release|Win32.ActiveCfg = Release|Win32
+		{5B52F094-989B-4850-A450-C26FF975895A}.Release|Win32.Build.0 = Release|Win32
+		{9E5EA041-4F9B-4CD0-A92A-B25BAF56FDE4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E5EA041-4F9B-4CD0-A92A-B25BAF56FDE4}.Debug|Win32.Build.0 = Debug|Win32
+		{9E5EA041-4F9B-4CD0-A92A-B25BAF56FDE4}.Release|Win32.ActiveCfg = Release|Win32
+		{9E5EA041-4F9B-4CD0-A92A-B25BAF56FDE4}.Release|Win32.Build.0 = Release|Win32
+		{070EF620-7259-4D5F-8802-C4474B5015F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{070EF620-7259-4D5F-8802-C4474B5015F9}.Debug|Win32.Build.0 = Debug|Win32
+		{070EF620-7259-4D5F-8802-C4474B5015F9}.Release|Win32.ActiveCfg = Release|Win32
+		{070EF620-7259-4D5F-8802-C4474B5015F9}.Release|Win32.Build.0 = Release|Win32
+		{AF730489-A4C5-4D46-98BC-D3F84C167841}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF730489-A4C5-4D46-98BC-D3F84C167841}.Debug|Win32.Build.0 = Debug|Win32
+		{AF730489-A4C5-4D46-98BC-D3F84C167841}.Release|Win32.ActiveCfg = Release|Win32
+		{AF730489-A4C5-4D46-98BC-D3F84C167841}.Release|Win32.Build.0 = Release|Win32
+		{1007DED6-244F-4B53-9EF3-1D418BC39111}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1007DED6-244F-4B53-9EF3-1D418BC39111}.Debug|Win32.Build.0 = Debug|Win32
+		{1007DED6-244F-4B53-9EF3-1D418BC39111}.Release|Win32.ActiveCfg = Release|Win32
+		{1007DED6-244F-4B53-9EF3-1D418BC39111}.Release|Win32.Build.0 = Release|Win32
+		{0574AE40-DAE6-434F-AF5B-35A3F910AA94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0574AE40-DAE6-434F-AF5B-35A3F910AA94}.Debug|Win32.Build.0 = Debug|Win32
+		{0574AE40-DAE6-434F-AF5B-35A3F910AA94}.Release|Win32.ActiveCfg = Release|Win32
+		{0574AE40-DAE6-434F-AF5B-35A3F910AA94}.Release|Win32.Build.0 = Release|Win32
+		{E60F85D9-7630-449E-A0DD-73045C822E94}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E60F85D9-7630-449E-A0DD-73045C822E94}.Debug|Win32.Build.0 = Debug|Win32
+		{E60F85D9-7630-449E-A0DD-73045C822E94}.Release|Win32.ActiveCfg = Release|Win32
+		{E60F85D9-7630-449E-A0DD-73045C822E94}.Release|Win32.Build.0 = Release|Win32
+		{84FB307D-E0B7-4AE4-B799-3372808B1D95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{84FB307D-E0B7-4AE4-B799-3372808B1D95}.Debug|Win32.Build.0 = Debug|Win32
+		{84FB307D-E0B7-4AE4-B799-3372808B1D95}.Release|Win32.ActiveCfg = Release|Win32
+		{84FB307D-E0B7-4AE4-B799-3372808B1D95}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

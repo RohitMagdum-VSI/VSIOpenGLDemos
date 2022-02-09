@@ -1,0 +1,81 @@
+
+Seminar-Admin Astromedicomp 	
+
+3 Jul
+
+
+Hello All,
+
+Please find 9 assignments given by Sir on 2nd July 2017(yesterday) below.
+Kindly read each and every line carefully.
+
+Thank you.
+
+-----------------------------------------------------------------------------Mail from Sir---------------------------------------------------------------------------------------
+
+
+The following are the assignments for 'RTR Class', to be submitted by Saturday, 8th July, 2017.
+
+Each of the following assignments must be done in a separate program.
+Hence, you shall have to submit 9 assignment programs.
+***************************************************************************************************************************************************************************************************
+Here are the problem statements for the assignments:
+ 
+01) A RED colored, full length horizontal line of width 3, passing through the centre of the screen.
+ 
+02) A GREEN colored, full length vertical line of width 3, passing through the centre of the screen.
+ 
+03) 20 equally spaced, full length BLUE colored horizontal lines, each of width 1, above and similarly, 20 below the horizontal RED line  (The RED line from 'Assignment
+      01').
+ 
+04) 20 equally spaced, full length BLUE colored vertical lines, each of width 1, to the left and similarly, 20 to the right of the vertical GREEN line  (The GREEN line from
+      'Assignment 02').
+ 
+*** THOUGH IN CLASS, I HAD SAID "10 LINES", YOU TAKE 20. ***
+ 
+05) Combine all four assignments above to obtain a GRAPH PAPER background.
+ 
+06) Draw a YELLOW bordered (not filled), triangle on the graph paper background as achieved in 'Assignment 05'. The width of the lines making up the triangle must
+      be the same as the width of the blue lines of the graph paper. The size of the triangle must be half that of the graph paper.
+ 
+07) Draw a YELLOW bordered (not filled), square on the graph paper background as achieved in 'Assignment 05'. The width of the lines making up the square must be
+      the same as the width of the blue lines of the graph paper. The size of the square must be half that of the graph paper.
+ 
+08) Draw a YELLOW bordered (not filled), circle on the graph paper background using GL_POINTS and the equation of circle as taught.
+ 
+09) Draw a YELLOW bordered (not filled), circle on the graph paper background using GL_LINES and the equation of circle as taught with the help of following code as
+      in the RED BOOK 3rd Edition (make changes in it as required) :
+ 
+#define PI 3.1415926535898 //or look for 'M_PI' in 'math.h'
+GLint circle_points = 100; //you can try using 1000 or 10000
+glBegin(GL_LINE_LOOP); //GL_LINES will also do
+    for(int i=0; i < circle_points; i++)
+    {
+        angle = 2 * PI * i/circle_points;
+        glVertex2f(cos(angle), sin(angle));
+    }
+glEnd();
+ 
+Above snippet is the code from Red Book that I was referring to in class yesterday. Use above snippet in your program. There will be no separate file sent for this code.
+ 
+NOTE :
+======
+1) ALL ABOVE ASSIGNMENTS MUST BE COMPLETED ONLY BY THE CONCEPTS THAT HAVE BEEN TAUGHT IN CLASS UPTIL NOW.
+2) NO UNNECESSARY SELF-JUDGEMENTS AND GUESS WORKS ARE TO BE MADE.
+3) NO NEED TO 'GOOGLE' ANYTHING.
+ 
+4) IF YOU WISH, YOU MAY CONTACT YOUR GROUP LEADER FOR ANY DOUBTS, BUT IT MUST BE BEFORE OR UPTO THE WEDNESDAY OF THAT RESPECTIVE
+    WEEK. ANY DOUBT PUT FORTH AFTER WEDNESDAY SHALL BE CONSIDERED AS VOID OR WILL BE CONSIDERED SOLELY BY THE CONSENT OF THE GROUP
+    LEADER.
+   THIS RESTRICTION IS TO ENFORCE YOU TO TRY OUT THE ASSIGNMENTS RIGHT FROM SUNDAY NIGHT OF THAT WEEK UPTO THE FOLLOWING WEDNESDAY
+    NIGHT. IN OTHER WORDS, DO NOT WAKE UP FOR THE COMPLETION OF THE ASSIGNMENTS JUST PRIOR TO THE TIME OF THEIR SUBMISSION.
+ 
+* THE 4TH NOTE IS NOT ONLY FOR THIS PARTICULAR GROUP OF ASSIGNMENTS, BUT IT SHALL STAND FOREVER, UPTIL THE END OF RTR COURSE.
+ 
+I expect that you see this Google Group at least once everyday, so that you will not miss any last minute changes.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Regards,
+Nihara Kulkarni,
+Seminar-Admin, AstroMediComp.

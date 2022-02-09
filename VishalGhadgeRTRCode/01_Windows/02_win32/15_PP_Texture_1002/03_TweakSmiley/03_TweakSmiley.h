@@ -1,0 +1,2 @@
+#define IDBITMAP_SMILEY 101
+#define USE_MINE	1

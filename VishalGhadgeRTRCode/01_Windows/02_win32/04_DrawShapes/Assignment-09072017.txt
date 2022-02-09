@@ -1,0 +1,30 @@
+The following are the assignments for 'RTR Class', to be submitted by Saturday, 15th July, 2017.
+Each of the following assigments must be done in a separate program/project.
+***************************************************************************************************************************************************************************************************
+Here are the problem statements for the assignments:
+
+01) Convert all OpenGL applications uptil now (including the assignments from now onwards) into GLUT programs.
+
+02) Convert the last 4 assignments from the previous set of assignments into functions :
+
+03) Draw a single Point at the centre of the screen and change its size by using glPointSize(). [No need of grid background]
+
+04) Draw a multi-colored triangle.
+
+05) Draw a single-colored rectangle. The color to be applied to the rectangle is 'CORNFLOWER'. You are expected to find out the RGB values of the Cornflower
+      color and the subsequent normalized values.
+
+06) Draw the shape of 'KUNDALI' as taught by Sir in class.
+
+07) Draw 10 concentric, equally spaced out, only bordered (NOT filled) triangles. Each of the 10 triangles must be of a different color.
+
+08) Draw 10 concentric, equally spaced out, only bordered (NOT filled) rectangles. Each of the 10 rectangles must be of a different color.
+
+09) Draw 10 concentric, equally spaced out, only bordered (NOT filled) circles. Each of the 10 circles must be of a different color.
+
+10) Draw the symbol of 'The Deathly Hallows' in white color.
+
+NOTE : All above applications should have a BLACK background.
+
+***************************************************************************************************************************************************************************************************
+

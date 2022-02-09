@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "single_point", "single_point\single_point.vcxproj", "{15FCA975-8BEB-4794-8BE3-E38130A8E184}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multicolor_triangle", "multicolor_triangle\multicolor_triangle.vcxproj", "{ECD5E55B-1544-4715-9F46-9151AA5E2117}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cornflower_rect", "cornflower_rect\cornflower_rect.vcxproj", "{1A5C0245-B1E5-43E0-A57D-389B05EE114B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kundali", "kundali\kundali.vcxproj", "{A23833C8-6072-41E1-8F9B-F134FC97961F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concentric_circle", "concentric_circle\concentric_circle.vcxproj", "{60CB8802-2FA6-4A75-BF57-F9D961F22596}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concentric_triangles", "concentric_triangles\concentric_triangles.vcxproj", "{F6D26AB0-ACD8-4596-903C-209C4A9AB5D8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concentric_rectangles", "concentric_rectangles\concentric_rectangles.vcxproj", "{71217E75-A22B-4502-B1C6-43030E918E5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deathly_hallow", "deathly_hallow\deathly_hallow.vcxproj", "{E39DCD08-3358-47BE-9B3E-F77202E84500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15FCA975-8BEB-4794-8BE3-E38130A8E184}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15FCA975-8BEB-4794-8BE3-E38130A8E184}.Debug|Win32.Build.0 = Debug|Win32
+		{15FCA975-8BEB-4794-8BE3-E38130A8E184}.Release|Win32.ActiveCfg = Release|Win32
+		{15FCA975-8BEB-4794-8BE3-E38130A8E184}.Release|Win32.Build.0 = Release|Win32
+		{ECD5E55B-1544-4715-9F46-9151AA5E2117}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECD5E55B-1544-4715-9F46-9151AA5E2117}.Debug|Win32.Build.0 = Debug|Win32
+		{ECD5E55B-1544-4715-9F46-9151AA5E2117}.Release|Win32.ActiveCfg = Release|Win32
+		{ECD5E55B-1544-4715-9F46-9151AA5E2117}.Release|Win32.Build.0 = Release|Win32
+		{1A5C0245-B1E5-43E0-A57D-389B05EE114B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A5C0245-B1E5-43E0-A57D-389B05EE114B}.Debug|Win32.Build.0 = Debug|Win32
+		{1A5C0245-B1E5-43E0-A57D-389B05EE114B}.Release|Win32.ActiveCfg = Release|Win32
+		{1A5C0245-B1E5-43E0-A57D-389B05EE114B}.Release|Win32.Build.0 = Release|Win32
+		{A23833C8-6072-41E1-8F9B-F134FC97961F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A23833C8-6072-41E1-8F9B-F134FC97961F}.Debug|Win32.Build.0 = Debug|Win32
+		{A23833C8-6072-41E1-8F9B-F134FC97961F}.Release|Win32.ActiveCfg = Release|Win32
+		{A23833C8-6072-41E1-8F9B-F134FC97961F}.Release|Win32.Build.0 = Release|Win32
+		{60CB8802-2FA6-4A75-BF57-F9D961F22596}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60CB8802-2FA6-4A75-BF57-F9D961F22596}.Debug|Win32.Build.0 = Debug|Win32
+		{60CB8802-2FA6-4A75-BF57-F9D961F22596}.Release|Win32.ActiveCfg = Release|Win32
+		{60CB8802-2FA6-4A75-BF57-F9D961F22596}.Release|Win32.Build.0 = Release|Win32
+		{F6D26AB0-ACD8-4596-903C-209C4A9AB5D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6D26AB0-ACD8-4596-903C-209C4A9AB5D8}.Debug|Win32.Build.0 = Debug|Win32
+		{F6D26AB0-ACD8-4596-903C-209C4A9AB5D8}.Release|Win32.ActiveCfg = Release|Win32
+		{F6D26AB0-ACD8-4596-903C-209C4A9AB5D8}.Release|Win32.Build.0 = Release|Win32
+		{71217E75-A22B-4502-B1C6-43030E918E5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71217E75-A22B-4502-B1C6-43030E918E5B}.Debug|Win32.Build.0 = Debug|Win32
+		{71217E75-A22B-4502-B1C6-43030E918E5B}.Release|Win32.ActiveCfg = Release|Win32
+		{71217E75-A22B-4502-B1C6-43030E918E5B}.Release|Win32.Build.0 = Release|Win32
+		{E39DCD08-3358-47BE-9B3E-F77202E84500}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E39DCD08-3358-47BE-9B3E-F77202E84500}.Debug|Win32.Build.0 = Debug|Win32
+		{E39DCD08-3358-47BE-9B3E-F77202E84500}.Release|Win32.ActiveCfg = Release|Win32
+		{E39DCD08-3358-47BE-9B3E-F77202E84500}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

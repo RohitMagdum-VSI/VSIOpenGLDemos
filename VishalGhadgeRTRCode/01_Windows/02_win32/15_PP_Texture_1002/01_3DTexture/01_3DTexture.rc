@@ -1,0 +1,4 @@
+#include "01_3DTexture.h"
+
+IDBITMAP_STONE BITMAP Stone.bmp
+IDBITMAP_KUNDALI BITMAP Kundali.bmp

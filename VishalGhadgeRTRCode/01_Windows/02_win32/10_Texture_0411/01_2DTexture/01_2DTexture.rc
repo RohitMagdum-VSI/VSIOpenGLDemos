@@ -1,0 +1,3 @@
+#include "01_2DTexture.h"
+
+IDBITMAP_SMILEY BITMAP Smiley.bmp

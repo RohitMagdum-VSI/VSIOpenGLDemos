@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_Template", "01_Template\01_Template.vcxproj", "{7733E93B-FAFE-4CFE-AB76-7F7D9059B4AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_BasicShader", "02_BasicShader\02_BasicShader.vcxproj", "{8A0B55CA-D3C2-451A-BDF9-C56A5732CA12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Triangle", "03_Triangle\03_Triangle.vcxproj", "{D62E7B31-ECFB-4C08-BD50-4C13F8A05F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7733E93B-FAFE-4CFE-AB76-7F7D9059B4AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7733E93B-FAFE-4CFE-AB76-7F7D9059B4AF}.Debug|Win32.Build.0 = Debug|Win32
+		{7733E93B-FAFE-4CFE-AB76-7F7D9059B4AF}.Release|Win32.ActiveCfg = Release|Win32
+		{7733E93B-FAFE-4CFE-AB76-7F7D9059B4AF}.Release|Win32.Build.0 = Release|Win32
+		{8A0B55CA-D3C2-451A-BDF9-C56A5732CA12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A0B55CA-D3C2-451A-BDF9-C56A5732CA12}.Debug|Win32.Build.0 = Debug|Win32
+		{8A0B55CA-D3C2-451A-BDF9-C56A5732CA12}.Release|Win32.ActiveCfg = Release|Win32
+		{8A0B55CA-D3C2-451A-BDF9-C56A5732CA12}.Release|Win32.Build.0 = Release|Win32
+		{D62E7B31-ECFB-4C08-BD50-4C13F8A05F8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D62E7B31-ECFB-4C08-BD50-4C13F8A05F8B}.Debug|Win32.Build.0 = Debug|Win32
+		{D62E7B31-ECFB-4C08-BD50-4C13F8A05F8B}.Release|Win32.ActiveCfg = Release|Win32
+		{D62E7B31-ECFB-4C08-BD50-4C13F8A05F8B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

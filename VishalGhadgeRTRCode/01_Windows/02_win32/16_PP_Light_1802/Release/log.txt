@@ -1,0 +1,4 @@
+
+ Version : 4.3.0 - Build 20.19.15.4531
+ Shader Version : 4.30 - Build 20.19.15.4531==>Vertex Shader.==>Fragment Shader.
+ Log file succesfuly closed.

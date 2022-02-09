@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF8"/>
+		<title> VTG: Triangle Perspective </title>
+	</head>
+	
+	<!--Body-->
+	<body onload="main()">
+		<canvas id="AMC" width="800" height="600">
+			Your browser does not support HTML5 canvas element
+		</canvas>
+		<script src="gl-matrix-min.js"></script> 
+		<script src="TrianglePerspective.js"></script>
+		<script type="x-shader/vertex-shader" id="vs">#version 300 es
+			in vec4 vPosition;
+			uniform mat4 u_mvp_matrix;
+			void main(void)
+			{
+			gl_Position = u_mvp_matrix * vPosition;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fs">#version 300 es
+			precision highp float;
+			out vec4 FragColor;
+			void main(void)
+			{
+				FragColor = vec4(1.0,1.0,1.0,1.0);
+			}
+		</script>
+	</body>
+</html> 

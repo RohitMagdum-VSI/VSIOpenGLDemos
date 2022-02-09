@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_TriangleOrtho", "01_TriangleOrtho\01_TriangleOrtho.vcxproj", "{F2333352-280E-45A5-94DF-6ACED3DE3624}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_TrianglePerspective", "02_TrianglePerspective\02_TrianglePerspective.vcxproj", "{9352754F-B229-4723-8D9C-0D56F2FD2599}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_ColorTriangle", "03_ColorTriangle\03_ColorTriangle.vcxproj", "{C673689F-F281-4802-98AF-4238084017A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_BlackWhiteTriangleSquare", "04_BlackWhiteTriangleSquare\04_BlackWhiteTriangleSquare.vcxproj", "{DBF5F9F3-9BBF-4BB9-A124-F9CEF49C9D2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_ColorTriangleSquare", "05_ColorTriangleSquare\05_ColorTriangleSquare.vcxproj", "{66D44494-A62A-4F8C-83A0-C450BF776457}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_2DAnimation", "06_2DAnimation\06_2DAnimation.vcxproj", "{FAAB7CF6-18AB-4DAE-9EA5-18AC0FECDC2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2333352-280E-45A5-94DF-6ACED3DE3624}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2333352-280E-45A5-94DF-6ACED3DE3624}.Debug|Win32.Build.0 = Debug|Win32
+		{F2333352-280E-45A5-94DF-6ACED3DE3624}.Release|Win32.ActiveCfg = Release|Win32
+		{F2333352-280E-45A5-94DF-6ACED3DE3624}.Release|Win32.Build.0 = Release|Win32
+		{9352754F-B229-4723-8D9C-0D56F2FD2599}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9352754F-B229-4723-8D9C-0D56F2FD2599}.Debug|Win32.Build.0 = Debug|Win32
+		{9352754F-B229-4723-8D9C-0D56F2FD2599}.Release|Win32.ActiveCfg = Release|Win32
+		{9352754F-B229-4723-8D9C-0D56F2FD2599}.Release|Win32.Build.0 = Release|Win32
+		{C673689F-F281-4802-98AF-4238084017A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C673689F-F281-4802-98AF-4238084017A2}.Debug|Win32.Build.0 = Debug|Win32
+		{C673689F-F281-4802-98AF-4238084017A2}.Release|Win32.ActiveCfg = Release|Win32
+		{C673689F-F281-4802-98AF-4238084017A2}.Release|Win32.Build.0 = Release|Win32
+		{DBF5F9F3-9BBF-4BB9-A124-F9CEF49C9D2F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBF5F9F3-9BBF-4BB9-A124-F9CEF49C9D2F}.Debug|Win32.Build.0 = Debug|Win32
+		{DBF5F9F3-9BBF-4BB9-A124-F9CEF49C9D2F}.Release|Win32.ActiveCfg = Release|Win32
+		{DBF5F9F3-9BBF-4BB9-A124-F9CEF49C9D2F}.Release|Win32.Build.0 = Release|Win32
+		{66D44494-A62A-4F8C-83A0-C450BF776457}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66D44494-A62A-4F8C-83A0-C450BF776457}.Debug|Win32.Build.0 = Debug|Win32
+		{66D44494-A62A-4F8C-83A0-C450BF776457}.Release|Win32.ActiveCfg = Release|Win32
+		{66D44494-A62A-4F8C-83A0-C450BF776457}.Release|Win32.Build.0 = Release|Win32
+		{FAAB7CF6-18AB-4DAE-9EA5-18AC0FECDC2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAAB7CF6-18AB-4DAE-9EA5-18AC0FECDC2B}.Debug|Win32.Build.0 = Debug|Win32
+		{FAAB7CF6-18AB-4DAE-9EA5-18AC0FECDC2B}.Release|Win32.ActiveCfg = Release|Win32
+		{FAAB7CF6-18AB-4DAE-9EA5-18AC0FECDC2B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

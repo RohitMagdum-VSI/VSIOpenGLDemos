@@ -1,0 +1,4 @@
+#include "03_3DTexture.h"
+
+IDBITMAP_STONE BITMAP Stone.bmp
+IDBITMAP_SMILEY BITMAP Smiley.bmp

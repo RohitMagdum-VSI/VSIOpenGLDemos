@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF8"/>
+		<title> VTG: 3D Animation </title>
+	</head>
+	
+	<!--Body-->
+	<body onload="main()">
+		<canvas id="AMC" width="800" height="600">
+			Your browser does not support HTML5 canvas element
+		</canvas>
+		<script src="gl-matrix-min.js"></script> 
+		<script src="3DAnimation.js"></script>
+		<script type="x-shader/vertex-shader" id="vs">#version 300 es
+			in vec4 vPosition;
+			in vec4 vColor;
+			out vec4 out_color;
+			uniform mat4 u_mvp_matrix;
+			void main(void)
+			{
+				gl_Position = u_mvp_matrix * vPosition;
+				out_color = vColor;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fs">#version 300 es
+			precision highp float;
+			in vec4 out_color;
+			out vec4 FragColor;
+			void main(void)
+			{
+				FragColor = out_color;
+			}
+		</script>
+	</body>
+</html> 

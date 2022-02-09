@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF8"/>
+		<title> VTG: 3 Lights On Sphere </title>
+	</head>
+	
+	<!--Body-->
+	<body onload="main()">
+		<canvas id="AMC" width="800" height="600">
+			Your browser does not support HTML5 canvas element
+		</canvas>
+		<script src="gl-matrix-min.js"></script> 
+		<script src="Sphere.js"></script> 
+		<script src="Mesh.js"></script> 
+		<script src="3LightsOnSphere.js"></script>
+		<script type="x-shader/vertex-shader" id="vsPerVertex">#version 300 es
+			in vec4 vPosition;
+			in vec3 vNormal;
+			uniform mat4 u_model_matrix;
+			uniform mat4 u_view_matrix;
+			uniform mat4 u_projection_matrix;
+			uniform mat4 u_rotation_matrixR;
+			uniform mat4 u_rotation_matrixG;
+			uniform mat4 u_rotation_matrixB;
+			uniform vec3 u_LaR;
+			uniform vec3 u_LdR;
+			uniform vec3 u_LsR;
+			uniform vec4 u_light_positionR;
+			uniform vec3 u_LaG;
+			uniform vec3 u_LdG;
+			uniform vec3 u_LsG;
+			uniform vec4 u_light_positionG;
+			uniform vec3 u_LaB;
+			uniform vec3 u_LdB;
+			uniform vec3 u_LsB;
+			uniform vec4 u_light_positionB;			
+			uniform vec3 u_Ka;
+			uniform vec3 u_Kd;
+			uniform vec3 u_Ks;
+			uniform float u_material_shininess;
+			uniform mediump int u_L_key_pressed;
+			out vec3 out_phong_ads_color;			
+			void main(void)
+			{
+				if (1 == u_L_key_pressed)
+				{
+					vec4 eyeCoordinates = u_view_matrix * u_model_matrix * vPosition;
+					vec3 transformed_normals = normalize(mat3(u_view_matrix * u_model_matrix) * vNormal);
+					vec4 rotated_light_positionR = u_rotation_matrixR * u_light_positionR;
+					vec4 rotated_light_positionG = u_rotation_matrixG * u_light_positionG;
+					vec4 rotated_light_positionB = u_rotation_matrixB * u_light_positionB;
+					vec3 light_directionR = normalize(vec3(rotated_light_positionR) - eyeCoordinates.xyz);
+					vec3 light_directionG = normalize(vec3(rotated_light_positionG) - eyeCoordinates.xyz);
+					vec3 light_directionB = normalize(vec3(rotated_light_positionB) - eyeCoordinates.xyz);
+					vec3 viewer_vector = normalize(-eyeCoordinates.xyz);
+					/*Red Light*/
+					float tn_dot_ldR = max(dot(transformed_normals, light_directionR), 0.0);
+					vec3 ambientR = u_LaR * u_Ka;
+					vec3 diffuseR = u_LdR * u_Kd * tn_dot_ldR;
+					vec3 reflection_vectorR = reflect(-light_directionR, transformed_normals);
+					vec3 specularR = u_LsR * u_Ks * pow(max(dot(reflection_vectorR, viewer_vector), 0.0), u_material_shininess);
+					/*Green Light*/
+					float tn_dot_ldG = max(dot(transformed_normals, light_directionG), 0.0);
+					vec3 ambientG = u_LaG * u_Ka;
+					vec3 diffuseG = u_LdG * u_Kd * tn_dot_ldG;
+					vec3 reflection_vectorG = reflect(-light_directionG, transformed_normals);
+					vec3 specularG = u_LsG * u_Ks * pow(max(dot(reflection_vectorG, viewer_vector), 0.0), u_material_shininess);
+					/*Blue Light*/
+					float tn_dot_ldB = max(dot(transformed_normals, light_directionB), 0.0);
+					vec3 ambientB = u_LaB * u_Ka;
+					vec3 diffuseB = u_LdB * u_Kd * tn_dot_ldB;
+					vec3 reflection_vectorB = reflect(-light_directionB, transformed_normals);
+					vec3 specularB = u_LsB * u_Ks * pow(max(dot(reflection_vectorB, viewer_vector), 0.0), u_material_shininess);
+					out_phong_ads_color = ambientR + ambientG + ambientB + diffuseR + diffuseG + diffuseB + specularR + specularG + specularB;
+				}
+				else
+				{
+					out_phong_ads_color = vec3(1.0,1.0,1.0);
+				}
+				gl_Position = u_projection_matrix * u_view_matrix * u_model_matrix * vPosition;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fsPerVertex">#version 300 es
+			precision highp float;
+			in vec3 out_phong_ads_color;
+			out vec4 vFragColor;
+			void main(void)
+			{
+				vFragColor = vec4(out_phong_ads_color, 1.0);
+			}
+		</script>
+		<script type="x-shader/vertex-shader" id="vsPerFragment">#version 300 es
+			in vec4 vPosition;
+			in vec3 vNormal;
+			uniform mat4 u_model_matrix;
+			uniform mat4 u_view_matrix;
+			uniform mat4 u_projection_matrix;
+			uniform mat4 u_rotation_matrixR;
+			uniform mat4 u_rotation_matrixG;
+			uniform mat4 u_rotation_matrixB;
+			uniform vec4 u_light_positionR;
+			uniform vec4 u_light_positionG;
+			uniform vec4 u_light_positionB;
+			uniform mediump int u_L_key_pressed;
+			out vec3 transformed_normals;
+			out vec3 light_directionR;
+			out vec3 light_directionG;
+			out vec3 light_directionB;
+			out vec3 viewer_vector;
+			void main(void)
+			{
+				if (1 == u_L_key_pressed)
+				{
+					vec4 eyeCoordinates = u_view_matrix * u_model_matrix * vPosition;
+					transformed_normals = normalize(mat3(u_view_matrix * u_model_matrix) * vNormal);
+					vec4 rotated_light_positionR = u_rotation_matrixR * u_light_positionR;
+					vec4 rotated_light_positionG = u_rotation_matrixG * u_light_positionG;
+					vec4 rotated_light_positionB = u_rotation_matrixB * u_light_positionB;
+					light_directionR = normalize(vec3(rotated_light_positionR) - eyeCoordinates.xyz);
+					light_directionG = normalize(vec3(rotated_light_positionG) - eyeCoordinates.xyz);
+					light_directionB = normalize(vec3(rotated_light_positionB) - eyeCoordinates.xyz);
+					viewer_vector = normalize(-eyeCoordinates.xyz);
+					transformed_normals = normalize(transformed_normals);
+					light_directionR = normalize(light_directionR);
+					light_directionG = normalize(light_directionG);
+					light_directionB = normalize(light_directionB);
+					viewer_vector = normalize(viewer_vector);
+				}
+				gl_Position = u_projection_matrix * u_view_matrix * u_model_matrix * vPosition;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fsPerFragment">#version 300 es
+			precision highp float;
+			in vec3 transformed_normals;
+			in vec3 light_directionR;
+			in vec3 light_directionG;
+			in vec3 light_directionB;
+			in vec3 viewer_vector;
+			uniform vec3 u_LaR;
+			uniform vec3 u_LdR;
+			uniform vec3 u_LsR;
+			uniform vec3 u_LaG;
+			uniform vec3 u_LdG;
+			uniform vec3 u_LsG;	
+			uniform vec3 u_LaB;
+			uniform vec3 u_LdB;
+			uniform vec3 u_LsB;		
+			uniform vec3 u_Ka;
+			uniform vec3 u_Kd;
+			uniform vec3 u_Ks;
+			uniform float u_material_shininess;
+			uniform int u_L_key_pressed;
+			out vec4 vFragColor;
+			void main(void)
+			{
+				vec3 phong_ads_color;
+				if (1 == u_L_key_pressed)
+				{
+					vec3 normalized_transformed_normals = normalize(transformed_normals);
+					vec3 normalized_light_directionR = normalize(light_directionR);
+					vec3 normalized_light_directionG = normalize(light_directionG);
+					vec3 normalized_light_directionB = normalize(light_directionB);
+					vec3 normalized_viewer_vector = normalize(viewer_vector);
+					/*Red Light*/
+					float tn_dot_ldR = max(dot(normalized_transformed_normals, normalized_light_directionR), 0.0);
+					vec3 ambientR = u_LaR * u_Ka;
+					vec3 diffuseR = u_LdR * u_Kd * tn_dot_ldR;
+					vec3 reflection_vectorR = reflect(-normalized_light_directionR, normalized_transformed_normals);
+					vec3 specularR = u_LsR * u_Ks * pow(max(dot(reflection_vectorR, normalized_viewer_vector), 0.0), u_material_shininess);
+					/*Green Light*/
+					float tn_dot_ldG = max(dot(normalized_transformed_normals, normalized_light_directionG), 0.0);
+					vec3 ambientG = u_LaG * u_Ka;
+					vec3 diffuseG = u_LdG * u_Kd * tn_dot_ldG;
+					vec3 reflection_vectorG = reflect(-normalized_light_directionG, normalized_transformed_normals);
+					vec3 specularG = u_LsG * u_Ks * pow(max(dot(reflection_vectorG, normalized_viewer_vector), 0.0), u_material_shininess);
+					/*Blue Light*/
+					float tn_dot_ldB = max(dot(normalized_transformed_normals, normalized_light_directionB), 0.0);
+					vec3 ambientB = u_LaB * u_Ka;
+					vec3 diffuseB = u_LdB * u_Kd * tn_dot_ldB;
+					vec3 reflection_vectorB = reflect(-normalized_light_directionB, normalized_transformed_normals);
+					vec3 specularB = u_LsB * u_Ks * pow(max(dot(reflection_vectorB, normalized_viewer_vector), 0.0), u_material_shininess);
+					phong_ads_color = ambientR + ambientG + ambientB + diffuseR + diffuseG + diffuseB + specularR + specularG + specularB;
+				}
+				else
+				{
+					phong_ads_color = vec3(1.0,1.0,1.0);
+				}
+				vFragColor = vec4(phong_ads_color, 1.0);
+			}
+		</script>
+	</body>
+</html> 

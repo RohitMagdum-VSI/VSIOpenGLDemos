@@ -1,0 +1,2 @@
+Log File Is Successfully Opened.
+==>Vertex Shader-Per vertex light.==>Vertex Shader-Per Fragment light.==>Fragment Shader- Per vertex Light.==>Fragment Shader- Per Fragment Light.Log File Is Successfully Closed.

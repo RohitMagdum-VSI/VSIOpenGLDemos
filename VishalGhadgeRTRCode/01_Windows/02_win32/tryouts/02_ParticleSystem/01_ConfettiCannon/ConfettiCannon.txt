@@ -1,0 +1,121 @@
+static GLint arrayWidth, arrayHeight;
+static GLfloat *verts = NULL;
+static GLfloat *colors = NULL;
+static GLfloat *velocities = NULL;
+static GLfloat *startTimes = NULL; 
+ 
+void createPoints(GLint w, GLint h)
+{
+     GLfloat *vptr, *cptr, *velptr, *stptr;
+     GLfloat i, j; 
+ 
+    if (verts != NULL)
+		free(verts); 
+ 
+    verts  = malloc(w * h * 3 * sizeof(float));
+	colors = malloc(w * h * 3 * sizeof(float));
+	velocities = malloc(w * h * 3 * sizeof(float));
+	startTimes = malloc(w * h * sizeof(float)); 
+ 
+    vptr = verts;
+	cptr = colors;
+	velptr = velocities;
+	stptr  = startTimes;
+ 
+    for (i = 0.5 / w - 0.5; i < 0.5; i = i + 1.0/w)
+	{
+		for (j = 0.5 / h - 0.5; j < 0.5; j = j + 1.0/h)
+		{
+			 *vptr = i;
+             *(vptr + 1) = 0.0;
+             *(vptr + 2) = j;
+             vptr += 3; 
+ 
+            *cptr = ((float) rand() / RAND_MAX) * 0.5 + 0.5;
+			*(cptr + 1) = ((float) rand() / RAND_MAX) * 0.5 + 0.5;
+			*(cptr + 2) = ((float) rand() / RAND_MAX) * 0.5 + 0.5;
+			cptr += 3; 
+ 
+            *velptr = (((float) rand() / RAND_MAX)) + 3.0;
+			*(velptr + 1) = ((float) rand() / RAND_MAX) * 10.0;
+			*(velptr + 2) = (((float) rand() / RAND_MAX)) + 3.0;
+			velptr += 3; 
+ 
+            *stptr = ((float) rand() / RAND_MAX) * 10.0;
+			stptr++;
+		}
+	}
+	
+	arrayWidth  = w;
+    arrayHeight = h;
+ }
+ 
+ 
+ #define VELOCITY_ARRAY 3
+ #define START_TIME_ARRAY 4 
+ 
+ glBindAttribLocation(ProgramObject, VELOCITY_ARRAY, "Velocity");
+ glBindAttribLocation(ProgramObject, START_TIME_ARRAY, "StartTime"); 
+ 
+ void drawPoints()
+ { 
+    glPointSize(2.0); 
+ 
+    glVertexPointer(3, GL_FLOAT, 0, verts);
+	glColorPointer (3, GL_FLOAT, 0, colors);
+	glVertexAttribPointer(VELOCITY_ARRAY,  3, GL_FLOAT, GL_FALSE, 0, velocities);
+	glVertexAttribPointer(START_TIME_ARRAY, 1, GL_FLOAT, GL_FALSE, 0, startTimes);
+	
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glEnableClientState(GL_COLOR_ARRAY);
+	glEnableVertexAttribArray(VELOCITY_ARRAY);
+	glEnableVertexAttribArray(START_TIME_ARRAY); 
+	
+    glDrawArrays(GL_POINTS, 0, arrayWidth * arrayHeight); 
+	
+    glDisableClientState(GL_VERTEX_ARRAY);
+	glDisableClientState(GL_COLOR_ARRAY);
+	glDisableVertexAttribArray(VELOCITY_ARRAY);
+	glDisableVertexAttribArray(START_TIME_ARRAY);
+}
+
+update ()
+{
+	if (DoingParticles)
+	{
+		location = glGetUniformLocation(ProgramObject, "Time");
+		ParticleTime += 0.001f;
+		glUniform1f(location, ParticleTime);
+		CheckOglError();
+	}
+}
+
+//
+//	Vertex shader
+//
+uniform float Time;           // updated each frame by the application
+uniform vec4 Background;      // constant color equal to background 
+attribute vec3 Velocity;      // initial velocity attribute
+float StartTime;    		// time at which particle is activated 
+varying vec4 Color; 
+ 
+void main()
+{
+     vec4 vert;
+     float t = Time - StartTime; 
+ 
+    if (t >= 0.0)
+	{
+		vert = gl_Vertex + vec4(Velocity * t, 0.0);
+		vert.y -= 4.9 * t * t;
+		Color = gl_Color;
+	}
+	else
+	{
+		vert = gl_Vertex;     // Initial position
+		Color = Background;   // "pre-birth" color
+	} 
+ 
+    gl_Position = gl_ModelViewProjectionMatrix * vert;
+} 
+ 

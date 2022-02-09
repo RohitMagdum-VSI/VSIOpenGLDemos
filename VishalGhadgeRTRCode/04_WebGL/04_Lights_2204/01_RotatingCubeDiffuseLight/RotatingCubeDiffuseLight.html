@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<meta charset="UTF8"/>
+		<title> VTG: Rotating Cube With Diffuse Light </title>
+	</head>
+	
+	<!--Body-->
+	<body onload="main()">
+		<canvas id="AMC" width="800" height="600">
+			Your browser does not support HTML5 canvas element
+		</canvas>
+		<script src="gl-matrix-min.js"></script> 
+		<script src="RotatingCubeDiffuseLight.js"></script>
+		<script type="x-shader/vertex-shader" id="vs">#version 300 es
+			in vec4 vPosition;
+			in vec3 vNormal;
+			uniform mat4 u_model_view_matrix;
+			uniform mat4 u_projection_matrix;
+			uniform vec3 u_LD;
+			uniform vec3 u_KD;
+			uniform vec4 u_light_position;
+			uniform mediump int u_L_key_pressed;
+			out vec3 out_diffuse_light;			
+			void main(void)
+			{
+				if (1 == u_L_key_pressed)
+				{
+					vec4 eyeCoordinates = u_model_view_matrix * vPosition;
+					vec3 tnorm = normalize(mat3(u_model_view_matrix) * vNormal);
+					vec3 srcVec = normalize(vec3(u_light_position - eyeCoordinates));
+					out_diffuse_light = u_LD * u_KD * max(dot(srcVec, tnorm), 0.0);
+				}
+				gl_Position =  u_projection_matrix * u_model_view_matrix * vPosition;
+			}
+		</script>
+		<script type="x-shader/fragment-shader" id="fs">#version 300 es
+			precision highp float;
+			in vec3 out_diffuse_light;
+			uniform int u_L_key_pressed;
+			out vec4 vFragColor;
+			void main(void)
+			{
+				vec4 color;
+				if (1 == u_L_key_pressed)
+				{
+					color = vec4(out_diffuse_light, 1.0);
+				}
+				else
+				{
+					color = vec4(1.0, 1.0, 1.0, 1.0);
+				}
+				vFragColor = color;
+			}
+		</script>
+	</body>
+</html> 

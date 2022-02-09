@@ -1,0 +1,55 @@
+Assuming You Are All Using Ubuntu 16.04 64 Bit Linux :
+******************************************************
+
+* Remember :
+============
+Use 'file' Command Like Follows And Check Whether Your System 
+Gives A Similar Output Or Not.
+
+$ file libSphere.so
+
+On My System, Output Is :
+
+libSphere.so: ELF 64-bit LSB shared object, 
+              x86-64, 
+              version 1 (SYSV), 
+              dynamically linked, 
+              BuildID[sha1]=85218b6b5beec48c1bfd6a346350c31d08e1713e, 
+              not stripped
+================================================================================
+
+Steps :
+=======
+01) Extract The Archive And Get The 2 Files : Sphere.h And libSphere.so
+
+02) Copy Sphere.h And libSphere.so To Your Project's Directory 
+
+03) See Permissions By :
+
+    $ ls -l libSphere.so
+
+    They Should Be 755 ( i.e. rwxr-xr-x )
+
+    If Not, Do As Follows :
+
+    $ chmod 755 libSphere.so
+
+04) Include Sphere.h :
+
+    #include "Sphere.h"
+
+06) From Global Declarations, Follow Same Steps As Using Sphere In Windows.
+
+07) Compile, Link And Execute :
+    ===========================
+
+    Compile And Link :
+    ------------------
+    g++ -o OGLPP OGLPP.cpp -L . -lX11 -lGL -lGLEW -lSphere
+    
+
+    Execute :
+    ---------    
+    ./OGLPP or LD_LIBRARY_PATH=. ./OGLPP
+    
+    
