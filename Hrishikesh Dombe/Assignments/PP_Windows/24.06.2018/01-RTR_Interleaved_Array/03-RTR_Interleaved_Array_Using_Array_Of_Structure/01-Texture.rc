@@ -1,0 +1,3 @@
+#include"01-Texture.h"
+
+IDBITMAP_TEXTURE BITMAP "marble.bmp"

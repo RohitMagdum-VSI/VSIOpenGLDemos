@@ -1,0 +1,6 @@
+Log File Created Successfully...
+Vertex Shader Compilation Log : ERROR: 0:1: '' :  incorrect GLSL version: 460
+WARNING: 0:2: 'constructor' : constructing matrix from matrix is allowed from GLSL 1.20 (reserved in GLSL 1.10)
+
+
+Log File Closed Erroniously

@@ -1,0 +1,14 @@
+Log File Created SuccessfullyNumDriverTypes = 3.
+D3D11CreateDeviceAndSwapChain() Succeeded.
+The Chosen Driver Is OfHardware Type.
+The Supported Highest Feature Level Is11.0
+D3DCompile() Succeeded For Vertex Shader.
+CreateVertexShader() Succeeded.
+D3DCompile() Succeeded For Pixel Shader.
+CreatePixelShader() Succeeded.
+ID3D11Device::CreateBuffer() Succeeded.
+ID3D11Device::CreateBuffer() Succeeded.
+ID3D11Device::CreateBuffer() Succeeded For Constant Buffer.
+ID3D11Device::CreateBuffer() Succeeded For CreateRasterizerState.
+ID3D11Device::CreateTexture2D() Succeeded.
+0.

@@ -1,0 +1,6 @@
+Log File Created Successfully...
+Translate X : -0.500000	 Translate Y : 0.200000	 Translate Z : -0.660000
+Translate X : -0.500000	 Translate Y : 0.200000	 Translate Z : 0.880000
+Translate X : 0.480000	 Translate Y : 0.200000	 Translate Z : 0.900000
+Translate X : 0.480000	 Translate Y : 0.200000	 Translate Z : -0.660000
+Log File Closed Successfully

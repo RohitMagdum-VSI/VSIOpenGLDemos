@@ -1,0 +1,6 @@
+Log File Is Created Successfully...
+Left:0l 
+ Right:1536l 
+ Top:0l 
+ Bottom:834l
+Log File Closed Successfully...

@@ -1,0 +1,606 @@
+#include<windows.h>
+#include<C:\glew\include\GL\glew.h>
+#include<gl/GL.h>
+#include<stdio.h>
+#include"../../Resources/vmath.h"
+
+#pragma comment(lib,"User32.lib")
+#pragma comment(lib,"GDI32.lib")
+#pragma comment(lib,"C:\\glew\\lib\\Release\\Win32\\glew32.lib")
+#pragma comment(lib,"opengl32.lib")
+
+#define WIN_WIDTH 800
+#define WIN_HEIGHT 600
+
+using namespace vmath;
+		
+enum
+{
+	HAD_ATTRIBUTE_POSITION = 0,
+	HAD_ATTRIBUTE_COLOR,
+	HAD_ATTRIBUTE_NORMAL,
+	HAD_ATTRIBUTE_TEXTURE0,
+};
+
+LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
+
+FILE *gpFile;
+HWND ghwnd;
+HDC ghdc;
+HGLRC ghrc;
+DWORD dwStyle;
+WINDOWPLACEMENT wpPrev = { sizeof(WINDOWPLACEMENT) };
+bool gbActiveWindow = false;
+bool gbFullscreen = false;
+bool gbIsEscapeKeyPressed = false;
+
+GLuint gVertexShaderObject;
+GLuint gFragmentShaderObject;
+GLuint gShaderProgramObject;
+
+GLuint gVao_Triangle, gVao_Square;
+GLuint gVbo_Pos, gVbo_Color;
+GLuint gMVPUniform;
+
+GLfloat gAngle_Tri, gAngle_Square;
+
+mat4 gPerspectiveProjectionMatrix;
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLine, int iCmdShow)
+{
+	void initialize(void);
+	void display(void);
+	void update(void);
+	void uninitialize(int);
+	WNDCLASSEX wndclass;
+	HWND hwnd;
+	MSG msg;
+	TCHAR szClassName[] = TEXT("My App");
+	bool bDone = false;
+
+	if (fopen_s(&gpFile, "Log.txt", "w") != NULL)
+	{
+		MessageBox(NULL, TEXT("Cannot Create Log File !!!"), TEXT("Error"), MB_OK);
+		exit(EXIT_FAILURE);
+	}
+	else
+		fprintf(gpFile, "Log File Created Successfully...\n");
+
+	wndclass.cbSize = sizeof(WNDCLASSEX);
+	wndclass.style = CS_HREDRAW | CS_VREDRAW | CS_OWNDC;
+	wndclass.cbClsExtra = 0;
+	wndclass.cbWndExtra = 0;
+	wndclass.hInstance = hInstance;
+	wndclass.lpszClassName = szClassName;
+	wndclass.lpszMenuName = NULL;
+	wndclass.lpfnWndProc = WndProc;
+	wndclass.hIcon = LoadIcon(NULL, IDI_APPLICATION);
+	wndclass.hIconSm = LoadIcon(NULL, IDI_APPLICATION);
+	wndclass.hCursor = LoadCursor(NULL, IDC_ARROW);
+	wndclass.hbrBackground = (HBRUSH)GetStockObject(BLACK_BRUSH);
+
+	RegisterClassEx(&wndclass);
+
+	hwnd = CreateWindowEx(WS_EX_APPWINDOW, szClassName, TEXT("OpenGLPP : 2D Rotation"), WS_OVERLAPPEDWINDOW | WS_CLIPCHILDREN | WS_CLIPSIBLINGS | WS_VISIBLE, 100, 100, WIN_WIDTH, WIN_HEIGHT, NULL, NULL, hInstance, NULL);
+	if (hwnd == NULL)
+	{
+		fprintf(gpFile, "Cannot Create Window...\n");
+		uninitialize(1);
+	}
+
+	ghwnd = hwnd;
+
+	ShowWindow(hwnd, iCmdShow);
+	SetFocus(hwnd);
+	SetForegroundWindow(hwnd);
+
+	initialize();
+
+	while (bDone == false)
+	{
+		if (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
+		{
+			if (msg.message == WM_QUIT)
+				bDone = true;
+			else
+			{
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+		}
+		else
+		{
+			if (gbActiveWindow == true)
+			{
+				if (gbIsEscapeKeyPressed == true)
+					bDone = true;
+				update();
+				display();
+			}
+		}
+	}
+
+	uninitialize(0);
+	return((int)msg.wParam);
+}
+
+LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
+{
+	void resize(int, int);
+	void ToggleFullscreen(void);
+	switch (iMsg)
+	{
+	case WM_ACTIVATE:
+		if (HIWORD(wParam) == 0)
+			gbActiveWindow = true;
+		else
+			gbActiveWindow = false;
+		break;
+	case WM_CREATE:
+		break;
+	case WM_SIZE:
+		resize(LOWORD(lParam), HIWORD(lParam));
+		break;
+	case WM_KEYDOWN:
+		switch (wParam)
+		{
+		case VK_ESCAPE:
+			gbIsEscapeKeyPressed = true;
+			break;
+		case 0x46:
+			if (gbFullscreen == false)
+			{
+				ToggleFullscreen();
+				gbFullscreen = true;
+			}
+			else
+			{
+				ToggleFullscreen();
+				gbFullscreen = false;
+			}
+			break;
+		}
+		break;
+	case WM_DESTROY:
+		PostQuitMessage(0);
+		break;
+	}
+	return(DefWindowProc(hwnd, iMsg, wParam, lParam));
+}
+
+void initialize(void)
+{
+	void resize(int, int);
+	void uninitialize(int);
+	PIXELFORMATDESCRIPTOR pfd;
+	int iPixelFormatIndex;
+
+	ZeroMemory(&pfd, sizeof(PIXELFORMATDESCRIPTOR));
+
+	pfd.nSize = sizeof(PIXELFORMATDESCRIPTOR);
+	pfd.nVersion = 1;
+	pfd.dwFlags = PFD_DRAW_TO_WINDOW | PFD_SUPPORT_OPENGL | PFD_DOUBLEBUFFER;
+	pfd.iPixelType = PFD_TYPE_RGBA;
+	pfd.cColorBits = 24;
+	pfd.cRedBits = 8;
+	pfd.cGreenBits = 8;
+	pfd.cBlueBits = 8;
+	pfd.cAlphaBits = 8;
+	pfd.cDepthBits = 32;
+
+	ghdc = GetDC(ghwnd);
+	if (ghdc == NULL)
+	{
+		fprintf(gpFile, "GetDC() Failed.\n");
+		uninitialize(1);
+	}
+
+	iPixelFormatIndex = ChoosePixelFormat(ghdc, &pfd);
+	if (iPixelFormatIndex == 0)
+	{
+		fprintf(gpFile, "ChoosePixelFormat() Failed.\n");
+		uninitialize(1);
+	}
+
+	if (SetPixelFormat(ghdc, iPixelFormatIndex, &pfd) == FALSE)
+	{
+		fprintf(gpFile, "SetPixelFormat() Failed.\n");
+		uninitialize(1);
+	}
+
+	ghrc = wglCreateContext(ghdc);
+	if (ghrc == NULL)
+	{
+		fprintf(gpFile, "wglCreateContext() Failed.\n");
+		uninitialize(1);
+	}
+
+	if (wglMakeCurrent(ghdc, ghrc) == FALSE)
+	{
+		fprintf(gpFile, "wglMakeCurrent() Failed");
+		uninitialize(1);
+	}
+
+	GLenum glew_error = glewInit();
+	if (glew_error != GLEW_OK)
+	{
+		wglDeleteContext(ghrc);
+		ghrc = NULL;
+		ReleaseDC(ghwnd, ghdc);
+		ghdc = NULL;
+	}
+
+	//Vertex Shader
+	gVertexShaderObject = glCreateShader(GL_VERTEX_SHADER);
+
+	const GLchar *vertexShaderSourceCode =
+		"#version 450 core" \
+		"\n" \
+		"in vec4 vPosition;" \
+		"in vec4 vColor;" \
+		"uniform mat4 u_mvp_matrix;" \
+		"out vec4 out_color;" \
+		"void main(void)" \
+		"{" \
+		"gl_Position = u_mvp_matrix * vPosition;" \
+		"out_color = vColor;" \
+		"}";
+
+	glShaderSource(gVertexShaderObject, 1, (const GLchar **)&vertexShaderSourceCode, NULL);
+
+	glCompileShader(gVertexShaderObject);
+	GLint iInfoLogLength = 0;
+	GLint iShaderCompiledStatus = 0;
+	char *szInfoLog = NULL;
+
+	glGetShaderiv(gVertexShaderObject, GL_COMPILE_STATUS, &iShaderCompiledStatus);
+	if (iShaderCompiledStatus == GL_FALSE)
+	{
+		glGetShaderiv(gVertexShaderObject, GL_INFO_LOG_LENGTH, &iInfoLogLength);
+		if (iInfoLogLength > 0)
+		{
+			szInfoLog = (char *)malloc(iInfoLogLength);
+			if (szInfoLog != NULL)
+			{
+				GLsizei written;
+				glGetShaderInfoLog(gVertexShaderObject, iInfoLogLength, &written, szInfoLog);
+				fprintf(gpFile, "Vertex Shader Compilation Log : %s\n",szInfoLog);
+				free(szInfoLog);
+				uninitialize(1);
+				exit(0);
+			}
+		}
+	}
+
+	//Fragment Shader
+	gFragmentShaderObject = glCreateShader(GL_FRAGMENT_SHADER);
+
+	const GLchar *fragmentShaderSourceCode =
+		"#version 450 core"\
+		"\n"\
+		"in vec4 out_color;" \
+		"out vec4 FragColor;"\
+		"void main(void)"\
+		"{"\
+		"FragColor=out_color;"\
+		"}";
+
+	glShaderSource(gFragmentShaderObject, 1, (const GLchar **)&fragmentShaderSourceCode, NULL);
+
+	glCompileShader(gFragmentShaderObject);
+
+	glGetShaderiv(gFragmentShaderObject, GL_COMPILE_STATUS, &iShaderCompiledStatus);
+	if (iShaderCompiledStatus == GL_FALSE)
+	{
+		glGetShaderiv(gFragmentShaderObject, GL_INFO_LOG_LENGTH, &iInfoLogLength);
+		if (iInfoLogLength > 0)
+		{
+			szInfoLog = (char*)malloc(iInfoLogLength);
+			if (szInfoLog != NULL)
+			{
+				GLsizei written;
+				glGetShaderInfoLog(gFragmentShaderObject, iInfoLogLength, &written, szInfoLog);
+				fprintf(gpFile, "Fragment Shader Compilation Log : %s\n", szInfoLog);
+				free(szInfoLog);
+				uninitialize(1);
+				exit(0);
+			}
+		}
+	}
+
+	//Shader Program
+	gShaderProgramObject = glCreateProgram();
+
+	glAttachShader(gShaderProgramObject, gVertexShaderObject);
+
+	glAttachShader(gShaderProgramObject, gFragmentShaderObject);
+
+	glBindAttribLocation(gShaderProgramObject, HAD_ATTRIBUTE_POSITION, "vPosition");
+
+	glLinkProgram(gShaderProgramObject);
+
+	GLint iShaderProgramLinkStatus = 0;
+
+	glGetProgramiv(gShaderProgramObject, GL_LINK_STATUS, &iShaderProgramLinkStatus);
+	if (iShaderProgramLinkStatus == GL_FALSE)
+	{
+		glGetProgramiv(gShaderProgramObject, GL_INFO_LOG_LENGTH, &iInfoLogLength);
+		if (iInfoLogLength > 0)
+		{
+			szInfoLog = (char *)malloc(iInfoLogLength);
+			if (szInfoLog != NULL)
+			{
+				GLsizei written;
+				glGetProgramInfoLog(gShaderProgramObject, iInfoLogLength, &written, szInfoLog);
+				fprintf(gpFile, "Shader Program Link Log : %s\n", szInfoLog);
+				free(szInfoLog);
+				uninitialize(1);
+				exit(0);
+			}
+		}
+	}
+
+	gMVPUniform = glGetUniformLocation(gShaderProgramObject, "u_mvp_matrix");
+
+	const GLfloat triangleVertices[] =
+	{
+		0.0f,1.0f,0.0f,
+		-1.0f,-1.0f,0.0f,
+		1.0f,-1.0f,0.0f
+	};
+
+	const GLfloat triangleColor[] =
+	{
+		1.0f,0.0f,0.0f,
+		0.0f,1.0f,0.0f,
+		0.0f,0.0f,1.0f
+	};
+
+	const GLfloat squareVertices[] =
+	{
+		1.0f,1.0f,0.0f,
+		-1.0f,1.0f,0.0f,
+		-1.0f,-1.0f,0.0f,
+		1.0f,-1.0f,0.0f
+	};
+
+	/*****************VAO For Triangle*****************/
+	glGenVertexArrays(1, &gVao_Triangle);
+	/*****************Triangle Position****************/
+	glBindVertexArray(gVao_Triangle);
+
+	glGenBuffers(1, &gVbo_Pos);
+	glBindBuffer(GL_ARRAY_BUFFER, gVbo_Pos);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(triangleVertices), triangleVertices, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(HAD_ATTRIBUTE_POSITION, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+
+	glEnableVertexAttribArray(HAD_ATTRIBUTE_POSITION);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	/*****************Triangle Color****************/
+	glGenBuffers(1, &gVbo_Color);
+	glBindBuffer(GL_ARRAY_BUFFER, gVbo_Color);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(triangleColor), triangleColor, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(HAD_ATTRIBUTE_COLOR, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+
+	glEnableVertexAttribArray(HAD_ATTRIBUTE_COLOR);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	glBindVertexArray(0);
+
+	/*****************VAO For Square*****************/
+	glGenVertexArrays(1, &gVao_Square);
+	/*****************Square Position****************/
+	glBindVertexArray(gVao_Square);
+
+	glGenBuffers(1, &gVbo_Pos);
+	glBindBuffer(GL_ARRAY_BUFFER, gVbo_Pos);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(squareVertices), squareVertices, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(HAD_ATTRIBUTE_POSITION, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+
+	glEnableVertexAttribArray(HAD_ATTRIBUTE_POSITION);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	/*****************Square Color****************/
+	glVertexAttrib3f(HAD_ATTRIBUTE_COLOR, 0.392f, 0.584f, 0.929f);
+
+	glBindVertexArray(0);
+
+	glClearDepth(1.0f);
+	glEnable(GL_DEPTH_TEST);
+	glDepthFunc(GL_LEQUAL);
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_PERSPECTIVE_CORRECTION_HINT , GL_NICEST);
+	//glEnable(GL_CULL_FACE);
+	
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+
+	gPerspectiveProjectionMatrix = mat4::identity();
+
+	resize(WIN_WIDTH, WIN_HEIGHT);
+}
+
+void display(void)
+{
+	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+	
+	//Use Shader Program Object
+	glUseProgram(gShaderProgramObject);
+
+	mat4 modelViewMatrix = mat4::identity();
+	mat4 modelViewProjectionMatrix = mat4::identity();
+	mat4 rotationMatrix = mat4::identity();
+	mat4 translationMatrix = mat4::identity();
+
+	/*modelViewMatrix = translate(-1.5f, 0.0f, -6.0f);
+
+	rotationMatrix = vmath::rotate(gAngle_Tri, 0.0f, 1.0f, 0.0f);
+	modelViewMatrix = modelViewMatrix*rotationMatrix;
+
+	modelViewProjectionMatrix = gPerspectiveProjectionMatrix*modelViewMatrix;
+
+	glUniformMatrix4fv(gMVPUniform, 1, GL_FALSE, modelViewProjectionMatrix);
+
+	glBindVertexArray(gVao_Triangle);
+
+	glDrawArrays(GL_TRIANGLES, 0, 3);
+
+	glBindVertexArray(0);
+
+	modelViewMatrix = mat4::identity();
+	modelViewProjectionMatrix = mat4::identity();
+	rotationMatrix = mat4::identity();*/
+
+	rotationMatrix = vmath::rotate(-gAngle_Square, 0.0f, 0.0f, 1.0f);
+	modelViewMatrix = modelViewMatrix*rotationMatrix;
+
+	translationMatrix = translate(-5.0f, 0.0f, -20.0f);
+	modelViewMatrix = modelViewMatrix*translationMatrix;
+	
+	modelViewProjectionMatrix = gPerspectiveProjectionMatrix*modelViewMatrix;
+
+	glUniformMatrix4fv(gMVPUniform, 1, GL_FALSE, modelViewProjectionMatrix);
+
+	glBindVertexArray(gVao_Square);
+
+	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+	
+	glBindVertexArray(0);
+
+	glUseProgram(0);
+
+	SwapBuffers(ghdc);
+}
+
+void update(void)
+{
+	gAngle_Tri = gAngle_Tri + 1.0f;
+	if (gAngle_Tri >= 360.0f)
+		gAngle_Tri = 0.0f;
+
+	gAngle_Square = gAngle_Square + 1.0f;
+	if (gAngle_Square > 360.0f)
+		gAngle_Square = 0.0f;
+}
+
+void resize(int width, int height)
+{
+	if (height == 0)
+		height = 1;
+	glViewport(0, 0, (GLsizei)width, (GLsizei)height);
+
+	gPerspectiveProjectionMatrix = perspective(45.0f, (GLfloat)width / (GLfloat)height, 0.1f, 100.0f);
+}
+
+void ToggleFullscreen(void)
+{
+	MONITORINFO mi = { sizeof(MONITORINFO) };
+	if (gbFullscreen == false)
+	{
+		dwStyle = GetWindowLong(ghwnd, GWL_STYLE);
+		if (dwStyle & WS_OVERLAPPEDWINDOW)
+		{
+			if (GetWindowPlacement(ghwnd, &wpPrev) && GetMonitorInfo(MonitorFromWindow(ghwnd, MONITORINFOF_PRIMARY), &mi))
+			{
+				SetWindowLong(ghwnd, GWL_STYLE, dwStyle & ~WS_OVERLAPPEDWINDOW);
+				SetWindowPos(ghwnd, HWND_TOP, mi.rcMonitor.left, mi.rcMonitor.top, mi.rcMonitor.right - mi.rcMonitor.left, mi.rcMonitor.bottom - mi.rcMonitor.top, SWP_NOZORDER | SWP_FRAMECHANGED);
+			}
+		}
+		ShowCursor(FALSE);
+	}
+
+	else
+	{
+		SetWindowLong(ghwnd, GWL_STYLE, dwStyle | WS_OVERLAPPEDWINDOW);
+		SetWindowPlacement(ghwnd, &wpPrev);
+		SetWindowPos(ghwnd, HWND_TOP, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOOWNERZORDER | SWP_FRAMECHANGED);
+		ShowCursor(TRUE);
+	}
+}
+
+void uninitialize(int i_Exit_Flag)
+{
+	if (gbFullscreen == false)
+	{
+		SetWindowLong(ghwnd, GWL_STYLE, dwStyle | WS_OVERLAPPEDWINDOW);
+		SetWindowPlacement(ghwnd, &wpPrev);
+		SetWindowPos(ghwnd, HWND_TOP, 0, 0, 0, 0, SWP_NOSIZE | SWP_NOMOVE | SWP_NOZORDER | SWP_NOOWNERZORDER | SWP_FRAMECHANGED);
+		ShowCursor(TRUE);
+	}
+
+	if (gVao_Triangle)
+	{
+		glDeleteVertexArrays(1, &gVao_Triangle);
+		gVao_Triangle = 0;
+	}
+
+	if (gVao_Square)
+	{
+		glDeleteVertexArrays(1, &gVao_Square);
+		gVao_Square = 0;
+	}
+
+	if (gVbo_Pos)
+	{
+		glDeleteBuffers(1, &gVbo_Pos);
+		gVbo_Pos = 0;
+	}
+
+	if (gVbo_Color)
+	{
+		glDeleteBuffers(1, &gVbo_Color);
+		gVbo_Color = 0;
+	}
+
+	//Detach Shader 
+	glDetachShader(gShaderProgramObject, gVertexShaderObject);
+	glDetachShader(gShaderProgramObject, gFragmentShaderObject);
+
+	//Delete Shader
+	glDeleteShader(gVertexShaderObject);
+	gVertexShaderObject = 0;
+
+	glDeleteShader(gFragmentShaderObject);
+	gFragmentShaderObject = 0;
+
+	//Delete Program
+	glDeleteProgram(gShaderProgramObject);
+	gShaderProgramObject = 0;
+
+	//Stray call to glUseProgram(0)
+	glUseProgram(0);
+
+	wglMakeCurrent(NULL, NULL);
+
+	if (ghrc != NULL)
+	{
+		wglDeleteContext(ghrc);
+		ghrc = NULL;
+	}
+
+	if (ghdc != NULL)
+	{
+		ReleaseDC(ghwnd, ghdc);
+		ghdc = NULL;
+	}
+
+	if (i_Exit_Flag == 0)
+	{
+		fprintf(gpFile, "Log File Closed Successfully");
+	}
+	else if (i_Exit_Flag == 1)
+	{
+		fprintf(gpFile, "Log File Closed Erroniously");
+	}
+
+	fclose(gpFile);
+	gpFile = NULL;
+
+	DestroyWindow(ghwnd);
+}

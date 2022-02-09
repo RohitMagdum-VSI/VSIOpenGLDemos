@@ -1,0 +1,5 @@
+Log File Created SuccessfullyNumDriverTypes = 3.
+D3D11CreateDeviceAndSwapChain() Failed.
+Initialize() Failed. Exitting Now.
+uninitialize() Succeeded.
+Log File Is Successfully Closed.

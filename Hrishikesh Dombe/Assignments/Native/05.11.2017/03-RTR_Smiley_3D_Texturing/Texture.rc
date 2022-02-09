@@ -1,0 +1,5 @@
+#include "Texture.h"
+
+IDBITMAP_SMILEY BITMAP Smiley.bmp
+IDBITMAP_STONE BITMAP Stone.bmp
+

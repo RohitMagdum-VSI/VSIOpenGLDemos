@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4BAAE8F20F6253600D2F159 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BAAE8E20F6253600D2F159 /* ViewController.m */; };
+		D4BAAE9220F6253600D2F159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAAE9020F6253600D2F159 /* Main.storyboard */; };
+		D4BAAE9420F6253600D2F159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BAAE9320F6253600D2F159 /* Assets.xcassets */; };
+		D4BAAE9720F6253600D2F159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAAE9520F6253600D2F159 /* LaunchScreen.storyboard */; };
+		D4BAAE9A20F6253600D2F159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BAAE9920F6253600D2F159 /* main.m */; };
+		D4BAAEA120F6255E00D2F159 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BAAEA020F6255E00D2F159 /* Default-568h@2x.png */; };
+		D4BAAEA820F6261F00D2F159 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4BAAEA420F6261F00D2F159 /* AppDelegate.mm */; };
+		D4BAAEA920F6261F00D2F159 /* GLESView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4BAAEA620F6261F00D2F159 /* GLESView.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4BAAE8720F6253600D2F159 /* 09-RTR_3D_Rotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-RTR_3D_Rotation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAAE8D20F6253600D2F159 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4BAAE8E20F6253600D2F159 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4BAAE9120F6253600D2F159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4BAAE9320F6253600D2F159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4BAAE9620F6253600D2F159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4BAAE9820F6253600D2F159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BAAE9920F6253600D2F159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4BAAEA020F6255E00D2F159 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4BAAEA320F6261F00D2F159 /* vmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmath.h; sourceTree = "<group>"; };
+		D4BAAEA420F6261F00D2F159 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		D4BAAEA520F6261F00D2F159 /* GLESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESView.h; sourceTree = "<group>"; };
+		D4BAAEA620F6261F00D2F159 /* GLESView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLESView.mm; sourceTree = "<group>"; };
+		D4BAAEA720F6261F00D2F159 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4BAAE8420F6253600D2F159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4BAAE7E20F6253600D2F159 = {
+			isa = PBXGroup;
+			children = (
+				D4BAAE8920F6253600D2F159 /* 09-RTR_3D_Rotation */,
+				D4BAAE8820F6253600D2F159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BAAE8820F6253600D2F159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAAE8720F6253600D2F159 /* 09-RTR_3D_Rotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4BAAE8920F6253600D2F159 /* 09-RTR_3D_Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAAEA720F6261F00D2F159 /* AppDelegate.h */,
+				D4BAAEA420F6261F00D2F159 /* AppDelegate.mm */,
+				D4BAAEA520F6261F00D2F159 /* GLESView.h */,
+				D4BAAEA620F6261F00D2F159 /* GLESView.mm */,
+				D4BAAEA320F6261F00D2F159 /* vmath.h */,
+				D4BAAE8D20F6253600D2F159 /* ViewController.h */,
+				D4BAAE8E20F6253600D2F159 /* ViewController.m */,
+				D4BAAE9020F6253600D2F159 /* Main.storyboard */,
+				D4BAAE9320F6253600D2F159 /* Assets.xcassets */,
+				D4BAAE9520F6253600D2F159 /* LaunchScreen.storyboard */,
+				D4BAAE9820F6253600D2F159 /* Info.plist */,
+				D4BAAE9920F6253600D2F159 /* main.m */,
+				D4BAAEA220F6256400D2F159 /* Resources */,
+			);
+			path = "09-RTR_3D_Rotation";
+			sourceTree = "<group>";
+		};
+		D4BAAEA220F6256400D2F159 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAAEA020F6255E00D2F159 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4BAAE8620F6253600D2F159 /* 09-RTR_3D_Rotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BAAE9D20F6253600D2F159 /* Build configuration list for PBXNativeTarget "09-RTR_3D_Rotation" */;
+			buildPhases = (
+				D4BAAE8320F6253600D2F159 /* Sources */,
+				D4BAAE8420F6253600D2F159 /* Frameworks */,
+				D4BAAE8520F6253600D2F159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-RTR_3D_Rotation";
+			productName = "09-RTR_3D_Rotation";
+			productReference = D4BAAE8720F6253600D2F159 /* 09-RTR_3D_Rotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4BAAE7F20F6253600D2F159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hrishikesh Dombe";
+				TargetAttributes = {
+					D4BAAE8620F6253600D2F159 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D4BAAE8220F6253600D2F159 /* Build configuration list for PBXProject "09-RTR_3D_Rotation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4BAAE7E20F6253600D2F159;
+			productRefGroup = D4BAAE8820F6253600D2F159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4BAAE8620F6253600D2F159 /* 09-RTR_3D_Rotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4BAAE8520F6253600D2F159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAAE9720F6253600D2F159 /* LaunchScreen.storyboard in Resources */,
+				D4BAAEA120F6255E00D2F159 /* Default-568h@2x.png in Resources */,
+				D4BAAE9420F6253600D2F159 /* Assets.xcassets in Resources */,
+				D4BAAE9220F6253600D2F159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4BAAE8320F6253600D2F159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAAE8F20F6253600D2F159 /* ViewController.m in Sources */,
+				D4BAAEA920F6261F00D2F159 /* GLESView.mm in Sources */,
+				D4BAAEA820F6261F00D2F159 /* AppDelegate.mm in Sources */,
+				D4BAAE9A20F6253600D2F159 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4BAAE9020F6253600D2F159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BAAE9120F6253600D2F159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4BAAE9520F6253600D2F159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BAAE9620F6253600D2F159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4BAAE9B20F6253600D2F159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4BAAE9C20F6253600D2F159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4BAAE9E20F6253600D2F159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "09-RTR_3D_Rotation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hd.org.-9-RTR-3D-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4BAAE9F20F6253600D2F159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "09-RTR_3D_Rotation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hd.org.-9-RTR-3D-Rotation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4BAAE8220F6253600D2F159 /* Build configuration list for PBXProject "09-RTR_3D_Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAAE9B20F6253600D2F159 /* Debug */,
+				D4BAAE9C20F6253600D2F159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BAAE9D20F6253600D2F159 /* Build configuration list for PBXNativeTarget "09-RTR_3D_Rotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAAE9E20F6253600D2F159 /* Debug */,
+				D4BAAE9F20F6253600D2F159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4BAAE7F20F6253600D2F159 /* Project object */;
+}

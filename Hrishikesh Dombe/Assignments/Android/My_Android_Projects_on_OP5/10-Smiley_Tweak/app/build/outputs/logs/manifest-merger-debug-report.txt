@@ -1,0 +1,40 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hrishikesh_Win_10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2f7b83432e3cd39315695123fb87966\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:3:5-55
+	xmlns:android
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:6:5-8:34
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hrishikesh_Win_10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2f7b83432e3cd39315695123fb87966\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hrishikesh_Win_10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2f7b83432e3cd39315695123fb87966\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:7:5-34
+	android:minSdkVersion
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:8:5-31
+application
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:10:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hrishikesh_Win_10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2f7b83432e3cd39315695123fb87966\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Hrishikesh_Win_10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\c2f7b83432e3cd39315695123fb87966\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:13:9-49
+	android:icon
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:11:9-39
+activity#com.astromedicomp.opengl_2d_smiley_tweak.MainActivity
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\My_Android_Projects_on_OP5\10-Smiley_Tweak\app\src\main\AndroidManifest.xml:18:27-74

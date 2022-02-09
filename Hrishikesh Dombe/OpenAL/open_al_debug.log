@@ -1,0 +1,8 @@
+---------- AudioManager | OpenAL Debug Logs Starts ----------
+[Info]: Audio device created: Generic Software
+[Info]: Context created.
+[Info] | Buffer format: 4353
+[Info] | wav file loaded: resources/audio/sound1.wav[Info] | Buffer format: 4353
+[Info] | wav file loaded: resources/audio/sound2.wav[Info] | Buffer format: 4353
+[Info] | wav file loaded: resources/audio/sound3.wav[Info]: Audio device destroyed.
+---------- AudioManager | OpenAL Debug Logs End ----------

@@ -1,0 +1,8 @@
+Log File Created Successfully...
+OpenGL Version : 4.4.0 - Build 20.19.15.4835 
+OpenGL Shading Language Version : 4.40 - Build 20.19.15.4835 
+Vertex Shader Compilation Log : ERROR: 0:1: '' :  incorrect GLSL version: 460
+WARNING: 0:2: 'constructor' : constructing matrix from matrix is allowed from GLSL 1.20 (reserved in GLSL 1.10)
+
+
+Log File Closed Erroniously

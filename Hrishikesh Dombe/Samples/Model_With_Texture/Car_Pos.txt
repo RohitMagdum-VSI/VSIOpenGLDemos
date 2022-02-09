@@ -1,0 +1,4 @@
+Log File Created Successfully...
+Translate X : 150.499710	 Speed : 0.900000
+Translate X : -393.098663	 Speed : 0.900000
+Log File Closed Successfully
