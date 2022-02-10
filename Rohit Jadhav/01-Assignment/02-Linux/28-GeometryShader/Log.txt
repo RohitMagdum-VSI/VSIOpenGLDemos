@@ -1,0 +1,5 @@
+SUCCESS: Log Created!!
+SUCCESS: Totoal GLXFBConfig: 18
+SUCCESS: Hardware Rendering Context!!
+SUCCESS: Log Close!!
+SUCCESS: End!

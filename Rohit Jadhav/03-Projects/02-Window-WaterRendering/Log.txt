@@ -1,0 +1,4 @@
+Log Created!!
+DevCount: 1
+initialize() done!!
+Log Close!!

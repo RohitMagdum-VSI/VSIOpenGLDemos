@@ -1,0 +1,3 @@
+SUCCESS: Log Created!!
+SUCCESS: Initialize() Done!!
+SUCCESS: Log Close!!

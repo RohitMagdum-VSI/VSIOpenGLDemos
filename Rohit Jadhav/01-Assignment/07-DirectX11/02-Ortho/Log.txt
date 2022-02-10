@@ -1,0 +1,15 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() Done!!!
+SUCCESS: Selected Driver is: D3D_DRIVER_TYPE_HARDWARE !!
+SUCCESS: Feature Level Get: 11.0 !!
+SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: ID3D11Device::CreateVertex() Done!!
+SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: ID3D11Device::CreatePixelShader() Done!!
+SUCCESS: ID3D11Device::CreateInputLayout() Done!!
+SUCCESS: ID3D11Device:CreateBuffer() For VertexBuffer For Position Done!!
+SUCCESS: ID3D11Device:CreateBuffer() For Constant Buffer Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: Resize() in Initialize() Done!!
+SUCCESS: Initialize() Done!!
+SUCCESS: Log File Close!!

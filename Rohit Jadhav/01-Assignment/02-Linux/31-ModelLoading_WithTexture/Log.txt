@@ -1,0 +1,5 @@
+Log Created!!
+FBConfig: 18
+H/W Context!!
+Size: 48864
+Log Close!!

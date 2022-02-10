@@ -1,0 +1,5 @@
+Log Created!!
+Size1: 36
+Size: 48864
+initialize() done!!
+Log Close!!

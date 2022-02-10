@@ -1,0 +1,8 @@
+SUCCESS: Log Created!!
+SUCCESS: Totoal GLXFBConfig: 18
+SUCCESS: Hardware Rendering Context!!
+XTextProperty::Value: Rohit_R_Jadhav-PP-XWindows-TessellationShader
+XTextProperty::NItems: 45
+XTextProperty::Format: 8
+SUCCESS: Log Close!!
+SUCCESS: End!

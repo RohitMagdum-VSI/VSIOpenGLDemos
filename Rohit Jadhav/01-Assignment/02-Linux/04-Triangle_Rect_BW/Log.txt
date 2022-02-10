@@ -1,0 +1,4 @@
+Log Created!!
+Matching GLXFBConfig: 10
+Hardware Context
+Log Close!!

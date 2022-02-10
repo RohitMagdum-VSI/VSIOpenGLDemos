@@ -1,0 +1,7 @@
+Log Created!!
+Model fOpen() done!
+OpenGL Version : 4.1 INTEL-12.10.16
+OpenGL Shading Language Version: 4.10
+Size: 6084
+Program is Terminate SuccessFully!!
+Log Is Close!!

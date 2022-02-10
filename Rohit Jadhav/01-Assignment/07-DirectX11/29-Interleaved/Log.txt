@@ -1,0 +1,22 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() Done!!
+SUCCESS: DirectX Feature Level : 11.0
+SUCCESS: Driver Type: Hardware
+SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: Vertex Shader Creation Done!!
+SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: Pixel Shader Creation Done!!
+SUCCESS: Input Layout Created!!
+SUCCESS: Cube Position Color Normal TexCoord CreateBuffer()
+SUCCESS: Constant Buffer CreateBuffer()
+SUCCESS: CreateRasterizerState()
+		 S_OK
+SUCCESS: CreateWICTexureFromFile()
+SUCCESS: LoadD3DTexutre()
+SUCCESS: CreateSamplerState()
+SUCCESS: CreateRenderTargetView()
+SUCCESS: CreateTexture2D()
+SUCCESS: CreateDepthStencilView()
+SUCCESS: Warmup Resize()
+SUCCESS: Initialize() Done!!
+SUCCESS: Log Close!!

@@ -1,0 +1,19 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() done!!
+SUCCESS: Driver Type: Hardware !!
+SUCCESS: Feature Level: v11.0 
+SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: Vertex Shader Created!!
+SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: Pixel Shader Created!!
+SUCCESS: ID3D11Device::CreateInputDevice() Done!!
+SUCCESS: ID3D11Device::CreateBuffer() For Triangle_Position Done!!
+SUCCESS: ID3D11::CreateBuffer() for Triangle_Color Done!!
+SUCCESS: ID3D11Device::CreateBuffer() For ConstantBuffer Done!!
+SUCCESS: ID3D11Device:CreateRasterizerState() Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: ID3D11Device::CreateDepthStencilView() Done!!
+SUCCESS: Warmup Resize() Done!!
+SUCCESS: Initialize() Done!!
+SUCCESS: Log Close !!
+SUCCESS: END!!

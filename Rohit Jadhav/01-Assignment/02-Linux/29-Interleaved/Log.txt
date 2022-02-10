@@ -1,0 +1,4 @@
+Log Created!!
+FBConfig: 18
+H/W Context!!
+Log Close!!

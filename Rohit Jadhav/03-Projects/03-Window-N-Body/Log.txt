@@ -1,0 +1,101 @@
+Log Created!!
+SUCCESS: iCudaDevCount : 1
+1024
+initialize() done!!
+5
+ResetAllPointsData: Leave
+5 out
+1
+ResetAllPointsData: Leave
+1 out
+2
+ResetAllPointsData: Leave
+2 out
+3
+ResetAllPointsData: Leave
+3 out
+1
+ResetAllPointsData: Leave
+1 out
+3
+ResetAllPointsData: Leave
+3 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+3
+ResetAllPointsData: Leave
+3 out
+4
+ResetAllPointsData: Leave
+4 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+4
+ResetAllPointsData: Leave
+4 out
+4
+ResetAllPointsData: Leave
+4 out
+3
+ResetAllPointsData: Leave
+3 out
+3
+ResetAllPointsData: Leave
+3 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+5
+ResetAllPointsData: Leave
+5 out
+5
+ResetAllPointsData: Leave
+5 out
+4
+ResetAllPointsData: Leave
+4 out
+6
+ResetAllPointsData: Leave
+6 out
+5
+ResetAllPointsData: Leave
+5 out
+Log Close!!

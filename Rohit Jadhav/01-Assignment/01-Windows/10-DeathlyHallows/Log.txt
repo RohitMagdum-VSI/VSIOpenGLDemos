@@ -1,0 +1,5 @@
+Log Created!!
+Incircle_Radius: 0.432624
+InCenter x: 0.000000      y: -0.267376      z: 0.000000     
+initialize() done!!
+Log Close!!

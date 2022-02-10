@@ -1,0 +1,7 @@
+#include"Image.h"
+
+BITMAP_MARBLE BITMAP marble.bmp
+BITMAP_COTTAGE BITMAP factory.bmp
+
+
+

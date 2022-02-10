@@ -1,0 +1,31 @@
+Log Created!!
+DevCount: 1
+
+OpenGL Version : 4.6.0 NVIDIA 472.12
+Renderer : NVIDIA GeForce 940MX/PCIe/SSE2
+Vendor : NVIDIA Corporation
+GLSL Version : 4.60 NVIDIA
+Model : 04-Model/lightHouse2.txt Open Succesfully
+LoadModel: 04-Model/lightHouse2.txt model LoadModel() Done
+Font : initialize_Font() done
+Terrain : gGrid_NumOfElements: 96774
+LoadKTXTexture : 02-Terrain/terragen_color.ktx file open
+LoadKTXTexture : Endianness : 0x4030201
+3.141593
+
+Water : initialize_Water() Done
+initialize() done!!
+
+Font : uninitialize_Font() done
+
+Shader 1 Detached and Deleted
+Shader 2 Detached and DeletedFire: Shader 1 Detached and Deleted
+Fire: Shader 2 Detached and Deleted
+INFO: ShaderCount: 2
+Terrain: Shader 1 Detached and Deleted
+Terrain: Shader 2 Detached and Deleted
+Terrain: All Shader Detached and Deleted
+Water : uninitialize_Water() Done
+
+
+Log Close!!

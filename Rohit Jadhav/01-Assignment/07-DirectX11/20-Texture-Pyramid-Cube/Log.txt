@@ -1,0 +1,28 @@
+SUCCESS: Log Created!!
+SUCCESS: Initialize-> D3D11CreateDeviceAndSwapChain() Done!!
+SUCCESS: Initialize-> Driver Type: Hardware
+SUCCESS: Initialize-> Feature Level: 11.0
+SUCCESS: Initiaize-> Vertex Shader Compilation Done!!
+SUCCESS: Initialize-> ID3D11Device:CreateVertexShader() !!
+SUCCESS: Initiaize-> Pixel Shader Compilation Done!!
+SUCCESS: Initialize-> ID3D11Device:CreatePixelShader() !!
+SUCCESS: Initialize-> ID3D11Device::CreateInputLayout()
+SUCCESS: Initialize-> Pyramid Position-> ID3D11Device::CreateBuffer()
+SUCCESS: Initialize-> Pyramid Texcoord-> ID3D11Device::CreateBuffer()
+SUCCESS: Initialize-> Cube Position-> ID3D11Device::CreateBuffer()
+SUCCESS: Initialize-> Cube Texcoord-> ID3D11Device::CreateBuffer()
+SUCCESS: Initialize-> Constant Buffer-> ID3D11Device::CreateBuffer()
+SUCCESS: Initialize-> Rasterizer State -> ID3D11Device::CreateRasterizerState()
+SUCCESS: LoadD3DTexture: DirectX::CreateWICTextureFromFile() Done!!
+SUCCESS: Initialize: LoadD3DTexture() Done!!
+SUCCESS: Initialize: CreateSamplerState() Done!!
+SUCCESS: LoadD3DTexture: DirectX::CreateWICTextureFromFile() Done!!
+SUCCESS: Initialize: LoadD3DTexture() Done!!
+SUCCESS: Initialize: CreateSamplerState() Done!!
+SUCCESS: Resize-> Render Target View-> ID3D11Device::CreateRenderTargetView()
+SUCCESS: Resize-> Depth Stencil View-> Depth Buffer-> ID3D11Device::CreateTexture2D()
+SUCCESS: Resize-> Depth Stencil View-> ID3D11Device::CreateDepthStencilView()
+SUCCESS: Initialize-> Resize()
+SUCCESS: WinMain->Initialize() Done!!
+SUCCESS: Uninitialize -> Log Close!!
+SUCCESS: End!!

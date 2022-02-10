@@ -1,0 +1,4 @@
+Log Created!!
+Matched FBConfig: 18
+Hardware Context!!
+Log Close!!

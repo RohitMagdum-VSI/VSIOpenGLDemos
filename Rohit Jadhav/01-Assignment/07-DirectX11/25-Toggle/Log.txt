@@ -1,0 +1,38 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() done!!
+SUCCESS: Driver Type: Hardware !!
+SUCCESS: Feature Level: v11.0 
+SUCCESS: Per Vertex Lighting!!
+	SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: Per Vertex Lighting!!
+	SUCCESS: Vertex Shader Created!!
+SUCCESS: Per Vertex Lighting!!
+	SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: Per Vertex Lighting!!
+	SUCCESS: Pixel Shader Created!!
+SUCCESS: Per Vertex Lighting!!
+	SUCCESS: ID3D11Device::CreateInputDevice() Done!!
+SUCCESS: Per Pixel Lighting
+	SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: Per Pixel Lighting
+	SUCCESS: Vertex Shader Creation Done!!
+SUCCESS: Per Pixel Lighting!!
+	SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: Per Pixel Lighting!!
+	SUCCESS: Pixel Shader Creation Done!!
+SUCCESS: Per Pixel Lighting!!
+	SUCCESS: Input Layout Created!!
+SUCCESS: ID3D11Device::CreateBuffer() For Sphere_Position Done!!
+SUCCESS: ID3D11::CreateBuffer() for Sphere_Normal Done!!
+SUCCESS: ID3D11::CreateBuffer() for Sphere_Elements Done!!
+SUCCESS: ID3D11Device::CreateBuffer() For ConstantBuffer Done!!
+SUCCESS: ID3D11Device:CreateRasterizerState() Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: ID3D11Device::CreateDepthStencilView() Done!!
+SUCCESS: Warmup Resize() Done!!
+SUCCESS: Initialize() Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: ID3D11Device::CreateDepthStencilView() Done!!
+SUCCESS: In WM_SIZE -> Resize() Done!!
+SUCCESS: Log Close !!
+SUCCESS: END!!

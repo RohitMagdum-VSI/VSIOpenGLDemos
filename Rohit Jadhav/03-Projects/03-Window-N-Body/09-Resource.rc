@@ -1,0 +1,3 @@
+#include"09-Resource.h"
+
+ID_SONG WAVE sound.wav

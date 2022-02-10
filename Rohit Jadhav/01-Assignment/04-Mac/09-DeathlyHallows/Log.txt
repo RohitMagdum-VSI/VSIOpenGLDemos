@@ -1,0 +1,7 @@
+Log Created!!
+OpenGL Version : 4.1 INTEL-12.10.16
+OpenGL Shading Language Version: 4.10
+Incircle_Radius_RRJ: 0.432624
+InCenter x: 0.000000      y: -0.267376      z: 0.000000     
+Program is Terminate SuccessFully!!
+Log Is Close!!

@@ -1,0 +1,3 @@
+#include"Image.h"
+
+ID_BITMAP_MARBLE BITMAP "marble.bmp"

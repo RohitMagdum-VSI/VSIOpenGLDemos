@@ -1,0 +1,1 @@
+#define ID_BITMAP_SMILEY 180

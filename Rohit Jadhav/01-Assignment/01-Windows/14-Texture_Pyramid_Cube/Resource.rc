@@ -1,0 +1,5 @@
+#include"Resource.h"
+
+ID_BITMAP_STONE BITMAP Stone.bmp
+ID_BITMAP_KUNDALI BITMAP Kundali.bmp
+

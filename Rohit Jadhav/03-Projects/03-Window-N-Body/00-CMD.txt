@@ -1,0 +1,14 @@
+cd C:\OpenGL-GroupLeader\03-GroupLeaderCode\01-Windows\11-N-Body\10-CPU-GPU
+
+cl.exe /c /EHsc 09-CPU-GPU.cpp /IC:\glew-2.1.0\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"    /IC:\FreeType\include\
+
+
+nvcc.exe -c 09-CPU-GPU-Kernel.cu
+
+rc.exe 09-Resource.rc
+
+link.exe 09-CPU-GPU.obj 09-CPU-GPU-Kernel.obj  09-Resource.res user32.lib gdi32.lib  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\cudart.lib" /LIBPATH:C:\FreeType\win64  /LIBPATH:C:\glew-2.1.0\lib\Release\x64  /SUBSYSTEM:WINDOWS /MACHINE:X64
+
+09-CPU-GPU.exe
+
+

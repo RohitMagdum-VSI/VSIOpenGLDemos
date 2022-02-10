@@ -1,0 +1,5 @@
+Log Created!!
+OpenGL Verision: 4.1 INTEL-12.10.12
+OpenGLSL Version: 4.10
+Program is Terminated Successfully!!
+Log Close!!

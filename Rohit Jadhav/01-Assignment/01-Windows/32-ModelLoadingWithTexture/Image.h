@@ -1,0 +1,3 @@
+#define BITMAP_MARBLE 108
+#define BITMAP_COTTAGE 109
+

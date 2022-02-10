@@ -1,0 +1,32 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() Failed!!
+SUCCESS: Driver Type: Hardware !!
+
+SUCCESS: Feature Level: 11.0 !!
+
+SUCCESS: Vertex Shader: D3DCompile() Done!!
+SUCCESS: Vertex Shader: ID3D11Device::CreateVertexShader() Done!!
+SUCCESS: Pixel Shader: D3DCompile() Done!!
+SUCCESS: Pixel Shader: ID3D11Device::CreatePixelShader() Done!!
+
+SUCCESS: Input Layout: ID3D11Device::CreateInputLayout() Done!!
+
+SUCCESS: Triangle Position: ID3D11Device::CreateBuffer() Done!!
+
+SUCCESS: Triangle Color: ID3D11Device::CreateBuffer() Done!!
+
+SUCCESS: Rectangle Position: ID3D11Device::CreateBuffer() Done!!
+
+SUCCESS: Rectangle Color: ID3D11Device::CreateBuffer() Done!!
+
+SUCCESS: Constant Buffer: ID3D11Device::CreateBuffer() Done!!
+
+SUCCESS: ID3D11RenderTargetView::CreateRenderTargetView() Done!!
+
+SUCCESS:  Warmup Resize() Done!!
+SUCCESS: Initialize() Done!!
+
+SUCCESS: ID3D11RenderTargetView::CreateRenderTargetView() Done!!
+SUCCESS: Resize() in WM_SIZE Done!!
+SUCCESS: Log Close!!
+SUCCESS: END!!

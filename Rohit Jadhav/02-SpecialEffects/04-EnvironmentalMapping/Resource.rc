@@ -1,0 +1,15 @@
+#include"Resource.h"
+
+ID_LEFT		BITMAP	"skybox1/left.bmp"
+ID_RIGHT		BITMAP 	"skybox1/right.bmp"
+
+ID_TOP		BITMAP 	"skybox1/top.bmp"
+ID_BOTTOM	BITMAP 	"skybox1/bottom.bmp"
+
+ID_BACK		BITMAP 	"skybox1/back.bmp"
+ID_FRONT		BITMAP 	"skybox1/front.bmp"
+
+
+
+
+

@@ -1,0 +1,1 @@
+#define ID_BITMAP_MARBLE 105

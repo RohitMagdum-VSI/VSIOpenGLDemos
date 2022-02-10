@@ -1,0 +1,17 @@
+#include"01-v1.h"
+
+MYICON 				ICON 	TonyStark.ico
+
+ID_FIRE_NOISE			BITMAP 	"01-Fire/noise01.bmp"
+ID_FIRE_COLOR			BITMAP 	"01-Fire/fire01.bmp"
+ID_FIRE_ALPHA			BITMAP 	"01-Fire/alpha01.bmp"
+
+ID_TERRAIN_HT			BITMAP 	"02-Terrain/terr_noise1.bmp"
+ID_TERRAIN_TEX		BITMAP 	"02-Terrain/terr_tex.bmp"
+
+
+ID_BITMAP_KUNDALI 	BITMAP 	"03-GodRays/moon.bmp"
+
+ID_LIGHT_HOUSE_TEX 	BITMAP 	"04-Model/text.bmp"
+
+ID_SONG				WAVE	"07-Sound/song.wav"

@@ -1,0 +1,18 @@
+Log Created!!
+
+OpenGL Version : 4.6.0 NVIDIA 472.12
+Renderer : NVIDIA GeForce 940MX/PCIe/SSE2
+Vendor : NVIDIA Corporation
+GLSL Version : 4.60 NVIDIA
+4872
+05-Shapes: Sphere Init Done
+05-Shapes: Rect Init Done
+initialize() done!!
+
+05-Shapes: Sphere UnInit Done
+05-Shapes: Rect UnInit Done
+
+Shader 1 Detached and Deleted
+Shader 2 Detached and Deleted
+
+Log Close!!

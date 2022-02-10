@@ -1,0 +1,3 @@
+10 Matching GLXFBConfig
+H/W Rendering Context
+Log Close!!

@@ -1,0 +1,15 @@
+Log Created!!
+
+D3D11CreateDeviceAndSwapChain() Done!!
+
+The Chose Driver is Of : Hardware Rendering!!
+
+The Supported Highest Feature Level is: D3D_FEATURE_LEVEL_11_0
+
+ID3D11Device::CreateRenderTargetView() Done!!
+
+resize() done!!
+
+Initialize done!!
+
+Log Close!!n

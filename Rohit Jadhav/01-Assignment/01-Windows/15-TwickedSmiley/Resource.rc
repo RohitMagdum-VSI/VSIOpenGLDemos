@@ -1,0 +1,6 @@
+#include"Resource.h"
+
+ID_BITMAP_SMILEY BITMAP Smiley.bmp
+
+
+

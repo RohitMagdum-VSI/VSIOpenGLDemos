@@ -1,0 +1,4 @@
+Log Created!!
+
+initialize() done!!
+Log Close!!

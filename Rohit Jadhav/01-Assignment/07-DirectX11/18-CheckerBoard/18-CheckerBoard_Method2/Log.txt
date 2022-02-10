@@ -1,0 +1,27 @@
+SUCCESS: Log Created!!
+SUCCESS: D3D11CreateDeviceAndSwapChain() done!!
+SUCCESS: Driver Type: Hardware !!
+SUCCESS: Feature Level: v11.0 
+SUCCESS: Vertex Shader Compilation Done!!
+SUCCESS: Vertex Shader Created!!
+SUCCESS: Pixel Shader Compilation Done!!
+SUCCESS: Pixel Shader Created!!
+SUCCESS: ID3D11Device::CreateInputDevice() Done!!
+SUCCESS: ID3D11Device::CreateBuffer() For Rect_Position Done!!
+SUCCESS: ID3D11::CreateBuffer() for Rect_Texcoord Done!!
+SUCCESS: ID3D11Device::CreateBuffer() For ConstantBuffer Done!!
+SUCCESS: CreateTexture2D()
+SUCCESS: CreateShaderResourceView()
+SUCCESS: Initialize: LoadD3DTexture() Done!!
+SUCCESS: Initialize: CreateSamplerState() Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: CreateTexture2D()
+SUCCESS: CreateDepthStencilView()
+SUCCESS: Warmup Resize() Done!!
+SUCCESS: Initialize() Done!!
+SUCCESS: ID3D11Device::CreateRenderTargetView() Done!!
+SUCCESS: CreateTexture2D()
+SUCCESS: CreateDepthStencilView()
+SUCCESS: In WM_SIZE -> Resize() Done!!
+SUCCESS: Log Close !!
+SUCCESS: END!!
