@@ -1,0 +1,9 @@
+Log file created successfully...
+
+Fragment Shader Compilation Log : ERROR: 0:2: 'assign' :  cannot convert from '2-component vector of highp float' to '3-component vector of highp float'
+ERROR: 0:2: 'step' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:2: 'step' : function is not known 
+ERROR: 0:2: 'assign' :  cannot convert from 'const highp float' to '2-component vector of highp float'
+
+
+Log file closed successfully
